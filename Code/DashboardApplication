@@ -1,0 +1,147 @@
+# Import required libraries
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from dash import Dash, dcc, html, Input, Output
+
+# Load the dataset from the specified file path
+file_path = '/content/enhanced_personal_expense_data.csv'
+df = pd.read_csv(file_path)
+
+# Convert 'Date' column to datetime format to enable date-based operations
+df['Date'] = pd.to_datetime(df['Date'])
+
+# Aggregate monthly data to analyze spending trends over time
+monthly_trend = df.groupby(df['Date'].dt.to_period('M'))['Amount'].sum().reset_index()
+monthly_trend['Date'] = monthly_trend['Date'].dt.to_timestamp()  # Convert back to timestamp for plotting
+
+# Aggregate by category to analyze distribution of expenses across different categories
+category_expenses = df.groupby('Category')['Amount'].sum().reset_index()
+
+# Aggregate by date to show daily spending trends
+daily_expenses = df.groupby('Date')['Amount'].sum().reset_index()
+
+# Calculate cumulative spending over time for cumulative line plot
+df['Cumulative Amount'] = df['Amount'].cumsum()
+
+# Define the Dash app layout
+app = Dash(__name__)
+
+app.layout = html.Div([
+    html.H1("Personal Expense Dashboard", style={'text-align': 'center'}),
+
+    # Line plot for Monthly Expense Trend
+    dcc.Graph(id="monthly-trend", 
+              figure=px.line(monthly_trend, x="Date", y="Amount", title="Monthly Expense Trend")
+              .update_traces(line_shape="spline", line=dict(width=3))),
+    
+    # Pie chart for Expense by Category
+    dcc.Graph(id="category-expenses",
+              figure=px.pie(category_expenses, values="Amount", names="Category", title="Expenses by Category")
+              .update_traces(textinfo='percent+label', hole=0.4)),
+
+    # Bar chart for Daily Expense Tracker with range slider for easy date navigation
+    dcc.Graph(id="daily-expenses",
+              figure=px.bar(daily_expenses, x="Date", y="Amount", title="Daily Expense Tracker")
+              .update_xaxes(rangeslider_visible=True)),
+    
+    # Cumulative spending line plot over time
+    dcc.Graph(id="cumulative-expenses",
+              figure=px.line(df, x='Date', y='Cumulative Amount', title="Cumulative Expenses Over Time")
+              .update_traces(line_shape="spline", line=dict(width=2))),
+
+    # Dropdown for filtering data by category
+    html.Div([
+        html.Label("Filter by Category:"),
+        dcc.Dropdown(id="category-filter",
+                     options=[{'label': cat, 'value': cat} for cat in df['Category'].unique()],
+                     value=None, clearable=True)
+    ], style={'width': '30%', 'display': 'inline-block', 'margin': '20px'}),
+
+    # Placeholder for heatmap of spending by day of week and hour (if hour data is available)
+    dcc.Graph(id="heatmap-weekday-time"),
+
+    # Bubble chart for expense distribution by merchant
+    dcc.Graph(id="merchant-expenses", 
+              figure=px.scatter(df, x="Merchant", y="Amount", size="Amount", color="Category",
+                                title="Expenses by Merchant", hover_name="Merchant", log_x=True,
+                                size_max=60)),
+
+    # Placeholder for quarterly spending summary bar chart
+    dcc.Graph(id="quarterly-expenses", figure=go.Figure()),
+
+    # Placeholder for monthly seasonality analysis (polar chart)
+    dcc.Graph(id="seasonality-analysis", figure=go.Figure()),
+
+    # Placeholder for top merchants bar chart
+    dcc.Graph(id="top-merchants", figure=go.Figure()),
+])
+
+# Callback function to update the visuals based on category filter selection
+@app.callback(
+    [Output('monthly-trend', 'figure'),
+     Output('category-expenses', 'figure'),
+     Output('daily-expenses', 'figure'),
+     Output('heatmap-weekday-time', 'figure'),
+     Output('quarterly-expenses', 'figure'),
+     Output('seasonality-analysis', 'figure'),
+     Output('top-merchants', 'figure')],
+    [Input('category-filter', 'value')]
+)
+def update_dashboard(selected_category):
+    # Filter data by the selected category if a filter is applied
+    if selected_category:
+        filtered_df = df[df['Category'] == selected_category]
+    else:
+        filtered_df = df
+
+    # Update Monthly Trend plot based on filtered data
+    monthly_data = filtered_df.groupby(filtered_df['Date'].dt.to_period('M'))['Amount'].sum().reset_index()
+    monthly_data['Date'] = monthly_data['Date'].dt.to_timestamp()
+    monthly_trend_fig = px.line(monthly_data, x="Date", y="Amount", title="Monthly Expense Trend (Filtered)")
+    monthly_trend_fig.update_traces(line_shape="spline", line=dict(width=3))
+
+    # Update Category Expense Pie Chart based on filtered data
+    category_data = filtered_df.groupby('Category')['Amount'].sum().reset_index()
+    category_expenses_fig = px.pie(category_data, values="Amount", names="Category", title="Expenses by Category (Filtered)")
+    category_expenses_fig.update_traces(textinfo='percent+label', hole=0.4)
+
+    # Update Daily Expense Bar chart based on filtered data
+    daily_data = filtered_df.groupby('Date')['Amount'].sum().reset_index()
+    daily_expenses_fig = px.bar(daily_data, x="Date", y="Amount", title="Daily Expense Tracker (Filtered)")
+    daily_expenses_fig.update_xaxes(rangeslider_visible=True)
+
+    # Generate a heatmap for spending by day of the week and hour if time data is available
+    if 'Day of Week' in filtered_df.columns and 'Time' in filtered_df.columns:
+        filtered_df['Hour'] = pd.to_datetime(filtered_df['Time'], errors='coerce').dt.hour
+        heatmap_data = filtered_df.pivot_table(index='Day of Week', columns='Hour', values='Amount', aggfunc='sum')
+        heatmap_fig = px.imshow(heatmap_data, labels=dict(color="Spending Amount"), title="Spending Heatmap by Day of Week and Hour")
+    else:
+        # Default to bar plot for day of week spending if hour data is unavailable
+        heatmap_data = filtered_df.groupby('Day of Week')['Amount'].sum().reindex(
+            ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"])
+        heatmap_fig = px.bar(heatmap_data, title="Spending by Day of Week")
+
+    # Quarterly Spending Summary by category, displayed in stacked bar format
+    filtered_df['Quarter'] = filtered_df['Date'].dt.to_period("Q")
+    quarterly_trend = filtered_df.groupby(['Quarter', 'Category'])['Amount'].sum().unstack().fillna(0)
+    quarterly_fig = px.bar(quarterly_trend, x=quarterly_trend.index.astype(str), y=quarterly_trend.columns,
+                           title="Quarterly Spending Summary by Category", barmode='stack')
+
+    # Monthly Seasonality Analysis using a polar chart
+    filtered_df['Month'] = filtered_df['Date'].dt.month_name()
+    monthly_seasonality = filtered_df.groupby('Month')['Amount'].sum().reindex(
+        ["January", "February", "March", "April", "May", "June", 
+         "July", "August", "September", "October", "November", "December"])
+    seasonality_fig = px.line_polar(monthly_seasonality, r='Amount', theta=monthly_seasonality.index,
+                                    line_close=True, title="Monthly Expense Seasonality")
+
+    # Top Merchants based on spending, showing top 10 in bar chart
+    top_merchants = filtered_df.groupby('Merchant')['Amount'].sum().nlargest(10).reset_index()
+    top_merchants_fig = px.bar(top_merchants, x='Merchant', y='Amount', title="Top 10 Merchants by Spending")
+
+    return monthly_trend_fig, category_expenses_fig, daily_expenses_fig, heatmap_fig, quarterly_fig, seasonality_fig, top_merchants_fig
+
+# Run the Dash app
+if __name__ == '__main__':
+    app.run_server(debug=True)
