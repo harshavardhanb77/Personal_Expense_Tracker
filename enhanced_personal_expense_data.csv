@@ -1,0 +1,1001 @@
+Transaction ID,Date,Amount,Category,Payment Method,Location,Merchant,Description,Transaction Type,Day of Week
+1,2023-11-16,94.06,Groceries,Bank Transfer,Pharmacy,Shell,Dinner with friends,Variable,Thursday
+2,2023-07-14,9.09,Bills,Credit Card,Supermarket,CVS,Weekly groceries,Fixed,Friday
+3,2024-04-15,85.27,Bills,Credit Card,Fuel Station,Amazon,Doctor's visit,Fixed,Monday
+4,2024-02-03,100.44,Transport,Debit Card,Online,Shell,Doctor's visit,Variable,Saturday
+5,2024-10-30,52.52,Groceries,Credit Card,Restaurant,Amazon,Dinner with friends,Variable,Wednesday
+6,2022-10-05,119.78,Bills,Cash,Pharmacy,CVS,Bus fare,Fixed,Wednesday
+7,2023-08-23,151.88,Healthcare,Cash,Supermarket,Walmart,Monthly subscription,Fixed,Wednesday
+8,2023-08-24,50.99,Eating Out,Debit Card,Restaurant,Starbucks,Gift shopping,Variable,Thursday
+9,2022-11-11,126.0,Eating Out,Credit Card,Pharmacy,Starbucks,Doctor's visit,Variable,Friday
+10,2023-12-07,129.73,Entertainment,Debit Card,Fuel Station,Amazon,Gas refill,Variable,Thursday
+11,2023-07-06,189.97,Healthcare,Debit Card,Supermarket,Netflix,Doctor's visit,Fixed,Thursday
+12,2022-03-29,156.76,Entertainment,Credit Card,Restaurant,Amazon,Monthly subscription,Variable,Tuesday
+13,2022-06-24,170.43,Healthcare,Bank Transfer,Online,CVS,Weekly groceries,Fixed,Friday
+14,2024-04-29,100.63,Bills,Credit Card,Supermarket,Amazon,Monthly subscription,Fixed,Monday
+15,2023-06-22,41.14,Transport,Cash,Supermarket,Starbucks,Dinner with friends,Variable,Thursday
+16,2024-04-25,199.18,Transport,Credit Card,Supermarket,Amazon,Gas refill,Variable,Thursday
+17,2022-03-14,30.22,Transport,Bank Transfer,Pharmacy,Amazon,Gift shopping,Variable,Monday
+18,2024-02-17,96.93,Healthcare,Credit Card,Online,Shell,Gas refill,Fixed,Saturday
+19,2022-04-26,18.28,Transport,Cash,Fuel Station,Amazon,Doctor's visit,Variable,Tuesday
+20,2024-09-03,189.05,Groceries,Cash,Online,Shell,Movie night,Variable,Tuesday
+21,2024-01-26,193.16,Healthcare,Bank Transfer,Fuel Station,Walmart,Doctor's visit,Fixed,Friday
+22,2023-03-25,145.28,Healthcare,Bank Transfer,Supermarket,Netflix,Movie night,Fixed,Saturday
+23,2024-04-30,73.25,Transport,Cash,Fuel Station,Amazon,Gas refill,Variable,Tuesday
+24,2022-04-10,54.6,Entertainment,Cash,Supermarket,Shell,Bus fare,Variable,Sunday
+25,2024-01-26,56.73,Healthcare,Credit Card,Online,CVS,Weekly groceries,Fixed,Friday
+26,2024-03-08,29.82,Entertainment,Debit Card,Restaurant,CVS,Dinner with friends,Variable,Friday
+27,2023-10-22,107.53,Healthcare,Debit Card,Supermarket,Shell,Gift shopping,Fixed,Sunday
+28,2024-06-29,32.65,Groceries,Bank Transfer,Online,CVS,Gift shopping,Variable,Saturday
+29,2023-02-28,66.76,Bills,Bank Transfer,Pharmacy,CVS,Gas refill,Fixed,Tuesday
+30,2023-11-29,127.21,Eating Out,Debit Card,Online,Amazon,Movie night,Variable,Wednesday
+31,2023-10-02,146.87,Entertainment,Cash,Restaurant,Starbucks,Monthly subscription,Variable,Monday
+32,2023-06-29,9.73,Entertainment,Bank Transfer,Supermarket,Starbucks,Movie night,Variable,Thursday
+33,2023-06-28,88.87,Healthcare,Credit Card,Fuel Station,Amazon,Weekly groceries,Fixed,Wednesday
+34,2023-12-16,132.16,Groceries,Debit Card,Online,Amazon,Gas refill,Variable,Saturday
+35,2022-09-02,171.38,Entertainment,Credit Card,Mall,Starbucks,Weekly groceries,Variable,Friday
+36,2022-06-01,97.69,Eating Out,Credit Card,Supermarket,Amazon,Movie night,Variable,Wednesday
+37,2023-11-07,194.0,Groceries,Cash,Supermarket,Amazon,Movie night,Variable,Tuesday
+38,2023-05-26,56.8,Transport,Bank Transfer,Mall,Starbucks,Movie night,Variable,Friday
+39,2024-06-01,7.63,Transport,Bank Transfer,Supermarket,Shell,Dinner with friends,Variable,Saturday
+40,2022-01-29,99.33,Transport,Bank Transfer,Pharmacy,Walmart,Gas refill,Variable,Saturday
+41,2024-03-13,54.94,Eating Out,Cash,Pharmacy,Amazon,Gift shopping,Variable,Wednesday
+42,2022-05-09,165.62,Bills,Credit Card,Restaurant,Starbucks,Gift shopping,Fixed,Monday
+43,2022-05-09,50.39,Entertainment,Credit Card,Fuel Station,CVS,Gift shopping,Variable,Monday
+44,2024-01-27,65.57,Eating Out,Credit Card,Restaurant,Amazon,Movie night,Variable,Saturday
+45,2022-10-01,159.29,Bills,Credit Card,Online,Amazon,Bus fare,Fixed,Saturday
+46,2022-12-02,144.45,Groceries,Bank Transfer,Online,Shell,Dinner with friends,Variable,Friday
+47,2023-01-24,113.82,Eating Out,Bank Transfer,Pharmacy,Walmart,Dinner with friends,Variable,Tuesday
+48,2023-06-28,142.46,Groceries,Credit Card,Supermarket,Amazon,Bus fare,Variable,Wednesday
+49,2024-06-07,86.63,Bills,Credit Card,Fuel Station,Walmart,Weekly groceries,Fixed,Friday
+50,2022-09-15,6.04,Eating Out,Cash,Fuel Station,Starbucks,Weekly groceries,Variable,Thursday
+51,2022-02-27,7.21,Entertainment,Bank Transfer,Mall,Starbucks,Gift shopping,Variable,Sunday
+52,2022-10-19,104.69,Bills,Bank Transfer,Fuel Station,CVS,Movie night,Fixed,Wednesday
+53,2024-02-19,21.24,Entertainment,Credit Card,Pharmacy,Netflix,Monthly subscription,Variable,Monday
+54,2023-03-07,14.96,Groceries,Bank Transfer,Restaurant,Shell,Bus fare,Variable,Tuesday
+55,2022-04-02,193.28,Entertainment,Bank Transfer,Restaurant,Starbucks,Gas refill,Variable,Saturday
+56,2023-02-03,172.51,Eating Out,Credit Card,Restaurant,CVS,Weekly groceries,Variable,Friday
+57,2023-09-04,34.65,Eating Out,Debit Card,Fuel Station,Amazon,Weekly groceries,Variable,Monday
+58,2024-06-27,5.13,Transport,Debit Card,Fuel Station,Amazon,Movie night,Variable,Thursday
+59,2023-09-26,188.63,Healthcare,Debit Card,Mall,Starbucks,Bus fare,Fixed,Tuesday
+60,2022-03-26,59.27,Entertainment,Bank Transfer,Restaurant,Netflix,Gift shopping,Variable,Saturday
+61,2022-07-23,41.25,Transport,Cash,Restaurant,CVS,Doctor's visit,Variable,Saturday
+62,2022-11-21,139.84,Bills,Bank Transfer,Online,Shell,Gas refill,Fixed,Monday
+63,2024-02-14,26.24,Groceries,Credit Card,Supermarket,CVS,Weekly groceries,Variable,Wednesday
+64,2024-08-22,56.61,Bills,Cash,Fuel Station,Netflix,Bus fare,Fixed,Thursday
+65,2023-10-02,195.14,Healthcare,Credit Card,Supermarket,Walmart,Gift shopping,Fixed,Monday
+66,2024-08-30,129.7,Groceries,Cash,Mall,Shell,Doctor's visit,Variable,Friday
+67,2024-05-18,106.53,Healthcare,Cash,Restaurant,Shell,Movie night,Fixed,Saturday
+68,2024-08-12,82.59,Entertainment,Cash,Online,Amazon,Doctor's visit,Variable,Monday
+69,2024-03-02,156.03,Eating Out,Cash,Supermarket,Shell,Movie night,Variable,Saturday
+70,2023-12-21,32.49,Entertainment,Debit Card,Mall,Shell,Movie night,Variable,Thursday
+71,2024-06-28,193.63,Groceries,Cash,Online,Amazon,Weekly groceries,Variable,Friday
+72,2023-01-09,172.92,Transport,Cash,Restaurant,Shell,Monthly subscription,Variable,Monday
+73,2023-07-15,125.44,Groceries,Credit Card,Mall,Netflix,Dinner with friends,Variable,Saturday
+74,2022-06-19,13.37,Transport,Credit Card,Fuel Station,Shell,Gift shopping,Variable,Sunday
+75,2022-09-14,141.67,Bills,Debit Card,Online,Starbucks,Gift shopping,Fixed,Wednesday
+76,2024-03-27,183.09,Eating Out,Cash,Supermarket,Shell,Monthly subscription,Variable,Wednesday
+77,2023-01-23,107.29,Bills,Credit Card,Pharmacy,Shell,Monthly subscription,Fixed,Monday
+78,2024-08-31,74.07,Entertainment,Cash,Supermarket,Walmart,Weekly groceries,Variable,Saturday
+79,2023-01-04,28.45,Healthcare,Cash,Pharmacy,Walmart,Bus fare,Fixed,Wednesday
+80,2024-07-06,152.21,Transport,Bank Transfer,Mall,CVS,Bus fare,Variable,Saturday
+81,2022-07-21,177.58,Transport,Cash,Online,Netflix,Doctor's visit,Variable,Thursday
+82,2023-01-19,24.55,Bills,Credit Card,Online,Walmart,Monthly subscription,Fixed,Thursday
+83,2023-01-06,153.0,Eating Out,Bank Transfer,Online,CVS,Movie night,Variable,Friday
+84,2023-07-10,8.33,Eating Out,Bank Transfer,Restaurant,Netflix,Movie night,Variable,Monday
+85,2024-08-12,193.58,Bills,Credit Card,Supermarket,CVS,Gift shopping,Fixed,Monday
+86,2022-01-24,124.94,Eating Out,Cash,Pharmacy,Walmart,Dinner with friends,Variable,Monday
+87,2022-05-11,112.73,Entertainment,Cash,Restaurant,Walmart,Doctor's visit,Variable,Wednesday
+88,2023-01-13,62.71,Healthcare,Cash,Mall,Amazon,Gift shopping,Fixed,Friday
+89,2022-04-09,186.21,Groceries,Bank Transfer,Mall,Netflix,Dinner with friends,Variable,Saturday
+90,2024-07-20,56.85,Transport,Credit Card,Fuel Station,CVS,Doctor's visit,Variable,Saturday
+91,2024-01-05,166.49,Healthcare,Bank Transfer,Fuel Station,Shell,Bus fare,Fixed,Friday
+92,2022-05-04,197.1,Transport,Bank Transfer,Restaurant,Walmart,Weekly groceries,Variable,Wednesday
+93,2023-08-18,157.76,Transport,Cash,Fuel Station,Netflix,Gas refill,Variable,Friday
+94,2024-01-10,106.2,Groceries,Debit Card,Pharmacy,Shell,Dinner with friends,Variable,Wednesday
+95,2022-07-29,17.88,Entertainment,Cash,Mall,Walmart,Weekly groceries,Variable,Friday
+96,2023-07-17,97.12,Bills,Debit Card,Fuel Station,Starbucks,Doctor's visit,Fixed,Monday
+97,2024-02-22,90.46,Eating Out,Credit Card,Fuel Station,Shell,Gift shopping,Variable,Thursday
+98,2023-12-07,44.55,Eating Out,Bank Transfer,Fuel Station,Walmart,Gift shopping,Variable,Thursday
+99,2024-02-18,87.6,Groceries,Cash,Supermarket,Walmart,Gas refill,Variable,Sunday
+100,2022-03-28,74.76,Transport,Credit Card,Mall,CVS,Gift shopping,Variable,Monday
+101,2024-05-22,36.92,Eating Out,Debit Card,Pharmacy,Shell,Gas refill,Variable,Wednesday
+102,2022-01-12,91.07,Bills,Bank Transfer,Fuel Station,Netflix,Doctor's visit,Fixed,Wednesday
+103,2024-02-10,56.25,Eating Out,Bank Transfer,Supermarket,Amazon,Gas refill,Variable,Saturday
+104,2022-11-04,106.8,Transport,Credit Card,Restaurant,CVS,Movie night,Variable,Friday
+105,2022-02-02,11.86,Healthcare,Credit Card,Pharmacy,Walmart,Weekly groceries,Fixed,Wednesday
+106,2024-03-17,181.72,Bills,Credit Card,Supermarket,Netflix,Bus fare,Fixed,Sunday
+107,2022-10-03,164.19,Transport,Cash,Fuel Station,Starbucks,Dinner with friends,Variable,Monday
+108,2023-03-21,112.75,Transport,Bank Transfer,Supermarket,CVS,Movie night,Variable,Tuesday
+109,2023-05-04,171.1,Groceries,Credit Card,Supermarket,Shell,Weekly groceries,Variable,Thursday
+110,2022-10-14,192.67,Transport,Debit Card,Pharmacy,Netflix,Gift shopping,Variable,Friday
+111,2023-09-30,26.55,Bills,Cash,Fuel Station,Netflix,Doctor's visit,Fixed,Saturday
+112,2024-02-10,128.01,Groceries,Debit Card,Online,Netflix,Dinner with friends,Variable,Saturday
+113,2022-04-05,199.61,Groceries,Bank Transfer,Mall,Amazon,Movie night,Variable,Tuesday
+114,2022-10-24,197.64,Bills,Bank Transfer,Online,Amazon,Gas refill,Fixed,Monday
+115,2023-08-31,122.65,Groceries,Debit Card,Fuel Station,CVS,Dinner with friends,Variable,Thursday
+116,2023-03-27,29.96,Bills,Cash,Mall,CVS,Monthly subscription,Fixed,Monday
+117,2022-06-30,118.72,Eating Out,Credit Card,Pharmacy,Starbucks,Dinner with friends,Variable,Thursday
+118,2022-11-20,5.4,Groceries,Credit Card,Mall,Walmart,Bus fare,Variable,Sunday
+119,2024-10-01,43.79,Eating Out,Credit Card,Fuel Station,Amazon,Weekly groceries,Variable,Tuesday
+120,2024-01-20,191.44,Groceries,Credit Card,Pharmacy,CVS,Bus fare,Variable,Saturday
+121,2022-05-20,69.44,Transport,Credit Card,Supermarket,Amazon,Monthly subscription,Variable,Friday
+122,2024-10-17,129.49,Healthcare,Debit Card,Restaurant,Amazon,Bus fare,Fixed,Thursday
+123,2023-08-22,59.77,Bills,Debit Card,Online,Amazon,Dinner with friends,Fixed,Tuesday
+124,2024-06-08,189.83,Transport,Cash,Online,CVS,Dinner with friends,Variable,Saturday
+125,2024-04-23,147.07,Eating Out,Bank Transfer,Pharmacy,CVS,Dinner with friends,Variable,Tuesday
+126,2023-11-28,69.28,Bills,Credit Card,Mall,Starbucks,Gift shopping,Fixed,Tuesday
+127,2024-07-14,159.39,Bills,Bank Transfer,Mall,Netflix,Weekly groceries,Fixed,Sunday
+128,2022-05-30,26.09,Healthcare,Credit Card,Restaurant,Shell,Gift shopping,Fixed,Monday
+129,2022-01-26,81.5,Eating Out,Credit Card,Supermarket,Shell,Doctor's visit,Variable,Wednesday
+130,2024-08-14,48.14,Bills,Debit Card,Mall,Netflix,Movie night,Fixed,Wednesday
+131,2024-06-05,138.33,Bills,Cash,Mall,Walmart,Movie night,Fixed,Wednesday
+132,2023-11-05,24.98,Groceries,Credit Card,Fuel Station,Starbucks,Doctor's visit,Variable,Sunday
+133,2024-07-17,82.42,Entertainment,Bank Transfer,Supermarket,Starbucks,Monthly subscription,Variable,Wednesday
+134,2024-02-03,58.95,Transport,Cash,Restaurant,Amazon,Gift shopping,Variable,Saturday
+135,2022-05-02,103.74,Entertainment,Debit Card,Mall,Netflix,Bus fare,Variable,Monday
+136,2023-04-15,73.23,Bills,Credit Card,Pharmacy,Amazon,Doctor's visit,Fixed,Saturday
+137,2022-10-15,142.75,Healthcare,Debit Card,Supermarket,Shell,Weekly groceries,Fixed,Saturday
+138,2023-06-10,9.79,Healthcare,Credit Card,Mall,Shell,Gift shopping,Fixed,Saturday
+139,2023-08-15,128.63,Entertainment,Bank Transfer,Restaurant,Netflix,Gift shopping,Variable,Tuesday
+140,2022-02-11,49.96,Healthcare,Cash,Online,Shell,Dinner with friends,Fixed,Friday
+141,2022-10-02,57.4,Healthcare,Bank Transfer,Pharmacy,CVS,Monthly subscription,Fixed,Sunday
+142,2022-07-27,161.05,Groceries,Credit Card,Fuel Station,Starbucks,Dinner with friends,Variable,Wednesday
+143,2024-02-19,191.34,Eating Out,Credit Card,Pharmacy,Amazon,Weekly groceries,Variable,Monday
+144,2022-06-16,66.73,Eating Out,Debit Card,Pharmacy,Starbucks,Movie night,Variable,Thursday
+145,2022-04-22,166.23,Entertainment,Cash,Pharmacy,Netflix,Dinner with friends,Variable,Friday
+146,2024-01-06,25.28,Groceries,Bank Transfer,Online,Netflix,Gift shopping,Variable,Saturday
+147,2024-03-23,128.63,Healthcare,Cash,Online,Shell,Weekly groceries,Fixed,Saturday
+148,2022-08-05,151.45,Healthcare,Credit Card,Online,Walmart,Bus fare,Fixed,Friday
+149,2022-01-25,35.42,Eating Out,Bank Transfer,Online,CVS,Weekly groceries,Variable,Tuesday
+150,2022-03-09,88.07,Entertainment,Debit Card,Restaurant,Walmart,Bus fare,Variable,Wednesday
+151,2024-09-05,179.08,Entertainment,Credit Card,Mall,Netflix,Bus fare,Variable,Thursday
+152,2024-10-04,25.2,Transport,Debit Card,Online,Starbucks,Bus fare,Variable,Friday
+153,2022-08-23,8.53,Groceries,Bank Transfer,Online,CVS,Dinner with friends,Variable,Tuesday
+154,2022-10-19,120.16,Transport,Bank Transfer,Restaurant,Amazon,Gift shopping,Variable,Wednesday
+155,2024-10-19,89.93,Entertainment,Credit Card,Supermarket,Walmart,Dinner with friends,Variable,Saturday
+156,2023-12-03,160.74,Transport,Credit Card,Restaurant,Walmart,Dinner with friends,Variable,Sunday
+157,2023-12-29,185.07,Healthcare,Debit Card,Supermarket,Starbucks,Monthly subscription,Fixed,Friday
+158,2023-07-10,63.33,Transport,Credit Card,Pharmacy,Netflix,Gift shopping,Variable,Monday
+159,2022-02-02,80.74,Entertainment,Cash,Restaurant,Shell,Monthly subscription,Variable,Wednesday
+160,2024-11-01,99.82,Eating Out,Cash,Pharmacy,CVS,Gas refill,Variable,Friday
+161,2022-08-01,119.69,Bills,Debit Card,Supermarket,Starbucks,Gas refill,Fixed,Monday
+162,2023-09-16,196.85,Eating Out,Debit Card,Restaurant,Netflix,Doctor's visit,Variable,Saturday
+163,2024-02-10,140.98,Healthcare,Credit Card,Supermarket,CVS,Monthly subscription,Fixed,Saturday
+164,2023-10-26,80.96,Groceries,Credit Card,Supermarket,CVS,Dinner with friends,Variable,Thursday
+165,2024-04-01,56.43,Eating Out,Cash,Pharmacy,Amazon,Monthly subscription,Variable,Monday
+166,2022-11-04,189.2,Healthcare,Debit Card,Supermarket,Netflix,Monthly subscription,Fixed,Friday
+167,2024-08-07,31.43,Entertainment,Debit Card,Mall,Shell,Monthly subscription,Variable,Wednesday
+168,2023-07-02,145.45,Transport,Cash,Online,Netflix,Doctor's visit,Variable,Sunday
+169,2024-03-18,185.45,Groceries,Debit Card,Restaurant,Netflix,Bus fare,Variable,Monday
+170,2022-03-15,134.61,Groceries,Credit Card,Pharmacy,Starbucks,Dinner with friends,Variable,Tuesday
+171,2022-10-25,87.5,Groceries,Debit Card,Online,Shell,Dinner with friends,Variable,Tuesday
+172,2024-07-08,43.8,Transport,Debit Card,Pharmacy,Shell,Gift shopping,Variable,Monday
+173,2024-01-01,76.66,Healthcare,Credit Card,Mall,Walmart,Gas refill,Fixed,Monday
+174,2024-05-26,142.84,Eating Out,Credit Card,Fuel Station,Walmart,Doctor's visit,Variable,Sunday
+175,2024-02-17,131.66,Transport,Cash,Online,Amazon,Weekly groceries,Variable,Saturday
+176,2023-03-06,185.96,Healthcare,Cash,Restaurant,Amazon,Bus fare,Fixed,Monday
+177,2022-07-19,174.04,Bills,Cash,Fuel Station,Shell,Gift shopping,Fixed,Tuesday
+178,2022-12-08,164.15,Groceries,Bank Transfer,Supermarket,CVS,Gift shopping,Variable,Thursday
+179,2024-05-15,182.73,Entertainment,Bank Transfer,Fuel Station,CVS,Doctor's visit,Variable,Wednesday
+180,2024-03-13,58.89,Transport,Debit Card,Supermarket,Netflix,Dinner with friends,Variable,Wednesday
+181,2022-02-03,77.06,Groceries,Credit Card,Online,Walmart,Monthly subscription,Variable,Thursday
+182,2023-10-08,79.08,Transport,Debit Card,Pharmacy,Amazon,Doctor's visit,Variable,Sunday
+183,2022-08-21,114.29,Healthcare,Credit Card,Restaurant,Shell,Movie night,Fixed,Sunday
+184,2024-02-07,135.3,Transport,Credit Card,Supermarket,Netflix,Weekly groceries,Variable,Wednesday
+185,2022-02-06,60.91,Eating Out,Debit Card,Online,Starbucks,Doctor's visit,Variable,Sunday
+186,2022-10-18,8.8,Transport,Debit Card,Online,Netflix,Gift shopping,Variable,Tuesday
+187,2022-07-17,82.85,Healthcare,Bank Transfer,Mall,Walmart,Weekly groceries,Fixed,Sunday
+188,2024-06-13,65.16,Entertainment,Debit Card,Fuel Station,CVS,Gas refill,Variable,Thursday
+189,2022-05-17,188.73,Bills,Credit Card,Restaurant,Netflix,Doctor's visit,Fixed,Tuesday
+190,2022-07-09,178.21,Bills,Credit Card,Restaurant,Walmart,Gas refill,Fixed,Saturday
+191,2022-05-10,172.76,Transport,Debit Card,Pharmacy,Starbucks,Weekly groceries,Variable,Tuesday
+192,2022-07-29,132.33,Transport,Credit Card,Pharmacy,Netflix,Doctor's visit,Variable,Friday
+193,2022-10-19,72.14,Transport,Bank Transfer,Online,Starbucks,Movie night,Variable,Wednesday
+194,2022-06-18,112.03,Bills,Credit Card,Mall,Walmart,Weekly groceries,Fixed,Saturday
+195,2024-03-15,163.97,Healthcare,Debit Card,Online,Walmart,Weekly groceries,Fixed,Friday
+196,2022-06-26,24.23,Healthcare,Credit Card,Pharmacy,Walmart,Movie night,Fixed,Sunday
+197,2022-11-20,161.21,Transport,Cash,Supermarket,CVS,Doctor's visit,Variable,Sunday
+198,2023-05-24,13.03,Healthcare,Debit Card,Mall,Shell,Gift shopping,Fixed,Wednesday
+199,2024-03-14,164.2,Eating Out,Bank Transfer,Fuel Station,Walmart,Dinner with friends,Variable,Thursday
+200,2022-05-27,162.47,Transport,Cash,Restaurant,Amazon,Gift shopping,Variable,Friday
+201,2022-08-10,14.95,Entertainment,Cash,Supermarket,Netflix,Doctor's visit,Variable,Wednesday
+202,2022-12-07,127.3,Entertainment,Cash,Supermarket,CVS,Dinner with friends,Variable,Wednesday
+203,2023-05-25,102.98,Bills,Bank Transfer,Fuel Station,Shell,Weekly groceries,Fixed,Thursday
+204,2023-05-30,38.11,Entertainment,Cash,Restaurant,Starbucks,Gas refill,Variable,Tuesday
+205,2022-03-11,33.93,Bills,Cash,Fuel Station,Starbucks,Doctor's visit,Fixed,Friday
+206,2024-06-27,155.79,Healthcare,Bank Transfer,Online,Amazon,Movie night,Fixed,Thursday
+207,2023-07-11,115.7,Entertainment,Cash,Mall,Netflix,Weekly groceries,Variable,Tuesday
+208,2024-06-04,196.68,Bills,Debit Card,Supermarket,CVS,Dinner with friends,Fixed,Tuesday
+209,2024-02-05,196.54,Groceries,Debit Card,Fuel Station,Amazon,Doctor's visit,Variable,Monday
+210,2022-04-02,198.57,Entertainment,Credit Card,Fuel Station,CVS,Doctor's visit,Variable,Saturday
+211,2023-02-28,28.13,Healthcare,Debit Card,Online,Netflix,Doctor's visit,Fixed,Tuesday
+212,2023-12-12,187.96,Transport,Cash,Restaurant,CVS,Bus fare,Variable,Tuesday
+213,2024-08-25,52.69,Bills,Debit Card,Online,Starbucks,Gas refill,Fixed,Sunday
+214,2022-10-02,94.35,Bills,Bank Transfer,Supermarket,Amazon,Dinner with friends,Fixed,Sunday
+215,2024-05-10,152.69,Eating Out,Bank Transfer,Mall,Starbucks,Weekly groceries,Variable,Friday
+216,2022-02-13,44.71,Groceries,Bank Transfer,Mall,Netflix,Weekly groceries,Variable,Sunday
+217,2023-03-10,115.43,Groceries,Cash,Restaurant,Amazon,Doctor's visit,Variable,Friday
+218,2024-03-20,41.23,Healthcare,Bank Transfer,Online,CVS,Monthly subscription,Fixed,Wednesday
+219,2022-04-04,25.42,Healthcare,Cash,Pharmacy,Amazon,Monthly subscription,Fixed,Monday
+220,2022-07-21,27.73,Transport,Debit Card,Mall,Shell,Bus fare,Variable,Thursday
+221,2023-05-14,74.74,Bills,Bank Transfer,Pharmacy,Shell,Weekly groceries,Fixed,Sunday
+222,2023-04-26,5.91,Groceries,Cash,Online,Netflix,Doctor's visit,Variable,Wednesday
+223,2022-11-26,87.85,Groceries,Cash,Online,Netflix,Gift shopping,Variable,Saturday
+224,2022-07-29,134.52,Eating Out,Cash,Pharmacy,Amazon,Bus fare,Variable,Friday
+225,2023-09-10,83.33,Healthcare,Cash,Restaurant,CVS,Doctor's visit,Fixed,Sunday
+226,2022-04-17,21.73,Transport,Bank Transfer,Pharmacy,Shell,Weekly groceries,Variable,Sunday
+227,2022-06-14,17.22,Healthcare,Cash,Supermarket,Netflix,Monthly subscription,Fixed,Tuesday
+228,2023-08-30,59.23,Transport,Debit Card,Pharmacy,Amazon,Gas refill,Variable,Wednesday
+229,2023-09-21,38.02,Groceries,Cash,Pharmacy,CVS,Dinner with friends,Variable,Thursday
+230,2022-05-17,193.19,Entertainment,Debit Card,Restaurant,Netflix,Dinner with friends,Variable,Tuesday
+231,2024-08-10,34.49,Eating Out,Debit Card,Supermarket,Walmart,Gift shopping,Variable,Saturday
+232,2024-05-09,162.07,Entertainment,Debit Card,Online,Shell,Doctor's visit,Variable,Thursday
+233,2024-01-21,119.29,Eating Out,Bank Transfer,Supermarket,Netflix,Gift shopping,Variable,Sunday
+234,2022-06-10,116.01,Entertainment,Debit Card,Pharmacy,CVS,Bus fare,Variable,Friday
+235,2022-05-28,104.86,Transport,Debit Card,Fuel Station,CVS,Movie night,Variable,Saturday
+236,2023-08-08,194.49,Healthcare,Cash,Online,Starbucks,Dinner with friends,Fixed,Tuesday
+237,2023-04-01,75.95,Healthcare,Debit Card,Restaurant,Amazon,Bus fare,Fixed,Saturday
+238,2024-08-09,158.64,Healthcare,Bank Transfer,Online,Amazon,Movie night,Fixed,Friday
+239,2024-04-12,113.28,Bills,Bank Transfer,Restaurant,Shell,Weekly groceries,Fixed,Friday
+240,2023-12-17,82.15,Transport,Bank Transfer,Pharmacy,Shell,Doctor's visit,Variable,Sunday
+241,2024-01-03,191.32,Groceries,Debit Card,Supermarket,CVS,Gift shopping,Variable,Wednesday
+242,2024-07-21,121.67,Entertainment,Credit Card,Supermarket,Amazon,Gas refill,Variable,Sunday
+243,2022-10-09,28.19,Healthcare,Debit Card,Supermarket,CVS,Bus fare,Fixed,Sunday
+244,2024-03-11,86.42,Groceries,Debit Card,Fuel Station,CVS,Doctor's visit,Variable,Monday
+245,2023-04-16,157.41,Transport,Credit Card,Supermarket,Netflix,Dinner with friends,Variable,Sunday
+246,2024-06-09,140.28,Healthcare,Debit Card,Supermarket,Shell,Monthly subscription,Fixed,Sunday
+247,2023-08-19,183.69,Entertainment,Cash,Mall,Shell,Weekly groceries,Variable,Saturday
+248,2023-10-10,55.58,Eating Out,Debit Card,Pharmacy,Amazon,Dinner with friends,Variable,Tuesday
+249,2023-07-28,152.85,Bills,Credit Card,Supermarket,Amazon,Gas refill,Fixed,Friday
+250,2023-10-16,94.68,Healthcare,Debit Card,Fuel Station,Netflix,Gift shopping,Fixed,Monday
+251,2022-09-14,116.85,Transport,Cash,Supermarket,Amazon,Doctor's visit,Variable,Wednesday
+252,2023-04-09,191.23,Transport,Debit Card,Restaurant,Walmart,Bus fare,Variable,Sunday
+253,2024-10-25,195.96,Bills,Bank Transfer,Pharmacy,CVS,Gift shopping,Fixed,Friday
+254,2023-02-28,173.01,Transport,Cash,Restaurant,Netflix,Movie night,Variable,Tuesday
+255,2022-12-15,75.02,Entertainment,Bank Transfer,Supermarket,CVS,Movie night,Variable,Thursday
+256,2024-07-30,178.1,Entertainment,Bank Transfer,Pharmacy,Starbucks,Movie night,Variable,Tuesday
+257,2023-08-10,129.53,Transport,Cash,Pharmacy,Netflix,Gift shopping,Variable,Thursday
+258,2024-10-03,88.85,Entertainment,Bank Transfer,Pharmacy,Walmart,Doctor's visit,Variable,Thursday
+259,2024-03-30,11.97,Transport,Credit Card,Online,Starbucks,Bus fare,Variable,Saturday
+260,2024-01-10,155.17,Healthcare,Credit Card,Mall,Netflix,Doctor's visit,Fixed,Wednesday
+261,2024-05-23,102.91,Transport,Cash,Mall,Amazon,Movie night,Variable,Thursday
+262,2024-02-26,158.31,Eating Out,Bank Transfer,Supermarket,Starbucks,Weekly groceries,Variable,Monday
+263,2023-03-14,150.86,Bills,Debit Card,Mall,Shell,Gift shopping,Fixed,Tuesday
+264,2024-10-17,159.75,Entertainment,Credit Card,Pharmacy,Amazon,Monthly subscription,Variable,Thursday
+265,2024-02-26,63.63,Bills,Credit Card,Online,Netflix,Gas refill,Fixed,Monday
+266,2024-07-30,161.16,Healthcare,Cash,Mall,Amazon,Bus fare,Fixed,Tuesday
+267,2024-05-05,112.03,Eating Out,Bank Transfer,Mall,Amazon,Dinner with friends,Variable,Sunday
+268,2023-03-26,97.3,Groceries,Credit Card,Online,Amazon,Monthly subscription,Variable,Sunday
+269,2024-03-27,136.65,Transport,Debit Card,Restaurant,Shell,Gift shopping,Variable,Wednesday
+270,2022-03-01,9.16,Entertainment,Bank Transfer,Supermarket,Amazon,Weekly groceries,Variable,Tuesday
+271,2022-12-03,24.95,Groceries,Credit Card,Pharmacy,Shell,Movie night,Variable,Saturday
+272,2022-06-13,61.97,Groceries,Bank Transfer,Fuel Station,Netflix,Bus fare,Variable,Monday
+273,2024-08-03,196.68,Entertainment,Debit Card,Online,Walmart,Doctor's visit,Variable,Saturday
+274,2022-07-21,32.25,Healthcare,Bank Transfer,Restaurant,Shell,Gas refill,Fixed,Thursday
+275,2024-06-08,69.47,Groceries,Cash,Fuel Station,Amazon,Gas refill,Variable,Saturday
+276,2023-07-05,14.96,Healthcare,Cash,Supermarket,Shell,Doctor's visit,Fixed,Wednesday
+277,2024-06-22,69.6,Healthcare,Bank Transfer,Restaurant,Starbucks,Monthly subscription,Fixed,Saturday
+278,2024-10-13,67.46,Transport,Credit Card,Supermarket,Netflix,Doctor's visit,Variable,Sunday
+279,2023-06-19,189.63,Healthcare,Credit Card,Mall,Amazon,Monthly subscription,Fixed,Monday
+280,2023-05-20,169.81,Healthcare,Bank Transfer,Online,Starbucks,Monthly subscription,Fixed,Saturday
+281,2023-04-14,79.64,Transport,Bank Transfer,Supermarket,Starbucks,Dinner with friends,Variable,Friday
+282,2023-02-05,9.83,Healthcare,Cash,Online,Shell,Gift shopping,Fixed,Sunday
+283,2024-06-01,167.05,Transport,Credit Card,Online,Starbucks,Movie night,Variable,Saturday
+284,2023-10-26,133.8,Eating Out,Credit Card,Fuel Station,Amazon,Dinner with friends,Variable,Thursday
+285,2022-10-08,34.71,Groceries,Debit Card,Restaurant,CVS,Dinner with friends,Variable,Saturday
+286,2024-10-25,199.23,Transport,Credit Card,Pharmacy,Starbucks,Doctor's visit,Variable,Friday
+287,2023-09-05,24.55,Eating Out,Cash,Restaurant,Starbucks,Gift shopping,Variable,Tuesday
+288,2024-10-01,174.09,Transport,Bank Transfer,Fuel Station,Shell,Bus fare,Variable,Tuesday
+289,2022-11-02,62.38,Transport,Cash,Restaurant,Amazon,Gift shopping,Variable,Wednesday
+290,2022-12-10,89.89,Entertainment,Cash,Pharmacy,CVS,Bus fare,Variable,Saturday
+291,2022-06-03,160.11,Transport,Debit Card,Fuel Station,Walmart,Gift shopping,Variable,Friday
+292,2022-12-24,137.11,Transport,Bank Transfer,Pharmacy,Netflix,Dinner with friends,Variable,Saturday
+293,2023-11-29,187.88,Transport,Credit Card,Restaurant,Walmart,Gift shopping,Variable,Wednesday
+294,2023-02-12,126.12,Transport,Bank Transfer,Online,Walmart,Dinner with friends,Variable,Sunday
+295,2024-07-18,24.07,Transport,Debit Card,Mall,Amazon,Gift shopping,Variable,Thursday
+296,2023-09-24,177.45,Bills,Cash,Pharmacy,Amazon,Bus fare,Fixed,Sunday
+297,2024-08-05,154.99,Bills,Cash,Mall,Starbucks,Dinner with friends,Fixed,Monday
+298,2024-05-04,143.81,Eating Out,Cash,Online,Netflix,Gift shopping,Variable,Saturday
+299,2023-05-18,15.48,Healthcare,Cash,Pharmacy,Shell,Monthly subscription,Fixed,Thursday
+300,2022-01-08,82.26,Eating Out,Debit Card,Supermarket,Amazon,Weekly groceries,Variable,Saturday
+301,2023-09-10,37.65,Eating Out,Bank Transfer,Supermarket,Amazon,Movie night,Variable,Sunday
+302,2024-10-06,165.27,Bills,Cash,Restaurant,Starbucks,Gas refill,Fixed,Sunday
+303,2022-05-18,141.6,Healthcare,Debit Card,Mall,Netflix,Gift shopping,Fixed,Wednesday
+304,2023-11-26,177.2,Eating Out,Credit Card,Supermarket,CVS,Monthly subscription,Variable,Sunday
+305,2024-05-01,193.48,Entertainment,Credit Card,Restaurant,Shell,Bus fare,Variable,Wednesday
+306,2024-07-21,156.08,Groceries,Bank Transfer,Restaurant,Netflix,Dinner with friends,Variable,Sunday
+307,2024-10-05,198.88,Entertainment,Bank Transfer,Restaurant,Netflix,Weekly groceries,Variable,Saturday
+308,2022-05-07,124.88,Groceries,Credit Card,Fuel Station,Starbucks,Dinner with friends,Variable,Saturday
+309,2023-08-01,12.24,Healthcare,Bank Transfer,Online,CVS,Gift shopping,Fixed,Tuesday
+310,2024-03-15,7.78,Groceries,Debit Card,Mall,Walmart,Gas refill,Variable,Friday
+311,2024-09-03,71.71,Transport,Credit Card,Pharmacy,Amazon,Gas refill,Variable,Tuesday
+312,2022-04-23,165.58,Eating Out,Credit Card,Restaurant,Walmart,Gift shopping,Variable,Saturday
+313,2023-10-13,173.9,Groceries,Cash,Pharmacy,Walmart,Monthly subscription,Variable,Friday
+314,2022-08-26,192.36,Transport,Cash,Supermarket,Walmart,Gas refill,Variable,Friday
+315,2024-09-17,17.7,Entertainment,Bank Transfer,Online,Starbucks,Gas refill,Variable,Tuesday
+316,2022-03-05,13.69,Transport,Debit Card,Fuel Station,Shell,Gift shopping,Variable,Saturday
+317,2023-03-31,183.09,Groceries,Debit Card,Pharmacy,CVS,Gas refill,Variable,Friday
+318,2023-08-27,64.48,Transport,Credit Card,Restaurant,Netflix,Gas refill,Variable,Sunday
+319,2023-09-16,113.81,Transport,Cash,Online,Walmart,Dinner with friends,Variable,Saturday
+320,2022-12-06,196.58,Entertainment,Cash,Restaurant,Shell,Gas refill,Variable,Tuesday
+321,2022-08-15,83.09,Entertainment,Credit Card,Online,Starbucks,Monthly subscription,Variable,Monday
+322,2024-06-27,134.84,Healthcare,Credit Card,Pharmacy,Shell,Gift shopping,Fixed,Thursday
+323,2023-01-05,83.17,Groceries,Credit Card,Pharmacy,CVS,Weekly groceries,Variable,Thursday
+324,2024-03-18,154.8,Healthcare,Bank Transfer,Supermarket,Starbucks,Doctor's visit,Fixed,Monday
+325,2023-11-30,107.9,Healthcare,Debit Card,Fuel Station,Netflix,Doctor's visit,Fixed,Thursday
+326,2022-10-20,51.32,Transport,Debit Card,Mall,Amazon,Weekly groceries,Variable,Thursday
+327,2022-12-22,57.9,Bills,Bank Transfer,Fuel Station,Amazon,Movie night,Fixed,Thursday
+328,2024-04-17,55.32,Transport,Cash,Restaurant,Netflix,Dinner with friends,Variable,Wednesday
+329,2022-05-15,108.8,Groceries,Cash,Restaurant,CVS,Gas refill,Variable,Sunday
+330,2022-01-04,142.12,Bills,Cash,Supermarket,Starbucks,Movie night,Fixed,Tuesday
+331,2024-06-08,190.11,Healthcare,Bank Transfer,Fuel Station,Amazon,Gift shopping,Fixed,Saturday
+332,2023-11-12,140.35,Transport,Bank Transfer,Online,CVS,Doctor's visit,Variable,Sunday
+333,2023-03-21,157.33,Entertainment,Debit Card,Fuel Station,CVS,Movie night,Variable,Tuesday
+334,2024-04-16,37.94,Groceries,Cash,Online,Walmart,Monthly subscription,Variable,Tuesday
+335,2022-01-27,77.94,Transport,Cash,Pharmacy,CVS,Gift shopping,Variable,Thursday
+336,2024-01-07,85.69,Entertainment,Cash,Pharmacy,Starbucks,Gift shopping,Variable,Sunday
+337,2022-09-06,138.84,Groceries,Bank Transfer,Restaurant,Amazon,Doctor's visit,Variable,Tuesday
+338,2023-01-01,62.7,Bills,Debit Card,Mall,Amazon,Monthly subscription,Fixed,Sunday
+339,2022-07-17,64.14,Bills,Debit Card,Restaurant,Walmart,Gas refill,Fixed,Sunday
+340,2024-07-18,74.4,Groceries,Credit Card,Fuel Station,Netflix,Movie night,Variable,Thursday
+341,2023-09-30,163.01,Healthcare,Cash,Online,Amazon,Weekly groceries,Fixed,Saturday
+342,2023-08-30,117.63,Entertainment,Debit Card,Mall,CVS,Doctor's visit,Variable,Wednesday
+343,2022-03-14,19.68,Bills,Cash,Mall,Walmart,Weekly groceries,Fixed,Monday
+344,2022-09-04,20.26,Healthcare,Debit Card,Supermarket,Shell,Bus fare,Fixed,Sunday
+345,2024-05-02,77.4,Groceries,Credit Card,Pharmacy,Netflix,Movie night,Variable,Thursday
+346,2022-08-02,154.49,Transport,Debit Card,Mall,Starbucks,Gift shopping,Variable,Tuesday
+347,2022-04-13,139.29,Groceries,Bank Transfer,Fuel Station,Netflix,Weekly groceries,Variable,Wednesday
+348,2022-11-24,143.06,Groceries,Debit Card,Restaurant,Amazon,Gas refill,Variable,Thursday
+349,2023-08-19,154.61,Groceries,Bank Transfer,Online,Amazon,Doctor's visit,Variable,Saturday
+350,2022-09-14,60.99,Entertainment,Cash,Pharmacy,Walmart,Gas refill,Variable,Wednesday
+351,2024-07-15,111.91,Eating Out,Bank Transfer,Fuel Station,Amazon,Monthly subscription,Variable,Monday
+352,2022-01-01,110.95,Healthcare,Cash,Restaurant,Netflix,Weekly groceries,Fixed,Saturday
+353,2023-11-23,149.23,Transport,Cash,Online,CVS,Doctor's visit,Variable,Thursday
+354,2023-05-15,191.59,Entertainment,Debit Card,Restaurant,Walmart,Dinner with friends,Variable,Monday
+355,2024-01-09,59.21,Groceries,Cash,Restaurant,Shell,Monthly subscription,Variable,Tuesday
+356,2023-09-28,159.69,Transport,Cash,Pharmacy,Shell,Dinner with friends,Variable,Thursday
+357,2022-12-10,133.69,Entertainment,Bank Transfer,Online,CVS,Movie night,Variable,Saturday
+358,2024-05-01,118.15,Bills,Credit Card,Restaurant,CVS,Dinner with friends,Fixed,Wednesday
+359,2022-10-10,156.1,Transport,Bank Transfer,Mall,Shell,Gas refill,Variable,Monday
+360,2023-12-20,189.09,Healthcare,Bank Transfer,Fuel Station,Walmart,Bus fare,Fixed,Wednesday
+361,2022-02-02,12.15,Eating Out,Cash,Fuel Station,Netflix,Weekly groceries,Variable,Wednesday
+362,2023-03-31,33.74,Eating Out,Cash,Pharmacy,Walmart,Dinner with friends,Variable,Friday
+363,2023-03-05,152.48,Transport,Bank Transfer,Supermarket,CVS,Monthly subscription,Variable,Sunday
+364,2024-04-07,21.34,Transport,Debit Card,Mall,Starbucks,Dinner with friends,Variable,Sunday
+365,2023-11-22,105.64,Healthcare,Credit Card,Online,Walmart,Movie night,Fixed,Wednesday
+366,2022-06-23,47.87,Groceries,Cash,Fuel Station,Amazon,Gas refill,Variable,Thursday
+367,2022-04-04,58.49,Groceries,Cash,Mall,Shell,Gift shopping,Variable,Monday
+368,2023-02-24,141.86,Healthcare,Bank Transfer,Restaurant,Walmart,Gift shopping,Fixed,Friday
+369,2023-02-09,10.89,Groceries,Debit Card,Supermarket,Starbucks,Bus fare,Variable,Thursday
+370,2024-07-30,175.3,Transport,Cash,Pharmacy,Amazon,Doctor's visit,Variable,Tuesday
+371,2024-09-02,91.67,Eating Out,Cash,Fuel Station,Netflix,Gas refill,Variable,Monday
+372,2023-01-11,102.97,Bills,Bank Transfer,Supermarket,Walmart,Monthly subscription,Fixed,Wednesday
+373,2023-12-04,110.31,Eating Out,Cash,Fuel Station,Shell,Gift shopping,Variable,Monday
+374,2023-05-13,130.88,Groceries,Credit Card,Mall,Amazon,Monthly subscription,Variable,Saturday
+375,2024-01-09,72.25,Entertainment,Credit Card,Supermarket,Walmart,Doctor's visit,Variable,Tuesday
+376,2023-02-24,24.72,Eating Out,Credit Card,Online,Amazon,Movie night,Variable,Friday
+377,2023-08-09,67.08,Groceries,Bank Transfer,Fuel Station,Amazon,Bus fare,Variable,Wednesday
+378,2023-04-06,37.79,Healthcare,Bank Transfer,Restaurant,Amazon,Bus fare,Fixed,Thursday
+379,2023-12-21,113.45,Transport,Cash,Restaurant,Starbucks,Weekly groceries,Variable,Thursday
+380,2024-09-25,67.02,Healthcare,Debit Card,Online,Walmart,Gas refill,Fixed,Wednesday
+381,2024-03-26,191.82,Bills,Debit Card,Restaurant,CVS,Monthly subscription,Fixed,Tuesday
+382,2022-04-15,193.32,Entertainment,Cash,Pharmacy,Amazon,Weekly groceries,Variable,Friday
+383,2023-10-03,125.92,Eating Out,Debit Card,Restaurant,Walmart,Gas refill,Variable,Tuesday
+384,2022-11-24,125.41,Groceries,Bank Transfer,Restaurant,Amazon,Dinner with friends,Variable,Thursday
+385,2023-08-30,197.15,Eating Out,Debit Card,Fuel Station,Shell,Weekly groceries,Variable,Wednesday
+386,2022-06-19,178.02,Bills,Debit Card,Mall,Walmart,Weekly groceries,Fixed,Sunday
+387,2022-06-16,154.19,Entertainment,Credit Card,Supermarket,Walmart,Gas refill,Variable,Thursday
+388,2024-07-28,66.15,Eating Out,Debit Card,Restaurant,Shell,Gas refill,Variable,Sunday
+389,2023-08-18,76.28,Bills,Bank Transfer,Mall,Walmart,Doctor's visit,Fixed,Friday
+390,2024-04-13,44.25,Entertainment,Credit Card,Online,Amazon,Weekly groceries,Variable,Saturday
+391,2024-04-14,99.99,Eating Out,Cash,Fuel Station,Starbucks,Gas refill,Variable,Sunday
+392,2024-05-10,198.12,Groceries,Cash,Pharmacy,Walmart,Gift shopping,Variable,Friday
+393,2022-12-01,182.87,Bills,Debit Card,Online,Shell,Dinner with friends,Fixed,Thursday
+394,2024-01-12,28.08,Groceries,Bank Transfer,Pharmacy,Starbucks,Movie night,Variable,Friday
+395,2022-04-11,9.91,Bills,Credit Card,Mall,Walmart,Movie night,Fixed,Monday
+396,2023-02-20,180.23,Groceries,Credit Card,Online,CVS,Weekly groceries,Variable,Monday
+397,2022-08-10,109.75,Healthcare,Cash,Mall,Amazon,Bus fare,Fixed,Wednesday
+398,2022-06-24,44.04,Groceries,Bank Transfer,Pharmacy,CVS,Weekly groceries,Variable,Friday
+399,2023-08-29,136.36,Healthcare,Credit Card,Restaurant,Netflix,Gift shopping,Fixed,Tuesday
+400,2024-02-20,130.62,Eating Out,Cash,Mall,CVS,Gas refill,Variable,Tuesday
+401,2024-04-28,28.81,Eating Out,Debit Card,Supermarket,Netflix,Gift shopping,Variable,Sunday
+402,2024-10-08,55.62,Groceries,Credit Card,Restaurant,Starbucks,Gas refill,Variable,Tuesday
+403,2022-05-06,16.72,Bills,Cash,Restaurant,Shell,Doctor's visit,Fixed,Friday
+404,2023-09-17,45.92,Eating Out,Bank Transfer,Supermarket,Walmart,Doctor's visit,Variable,Sunday
+405,2024-01-01,30.8,Eating Out,Bank Transfer,Online,Netflix,Doctor's visit,Variable,Monday
+406,2023-11-28,42.68,Groceries,Credit Card,Supermarket,CVS,Weekly groceries,Variable,Tuesday
+407,2022-11-18,138.67,Bills,Cash,Fuel Station,Netflix,Dinner with friends,Fixed,Friday
+408,2023-03-25,14.65,Groceries,Debit Card,Restaurant,Walmart,Gift shopping,Variable,Saturday
+409,2023-12-11,24.86,Transport,Credit Card,Online,Walmart,Movie night,Variable,Monday
+410,2022-01-04,31.16,Groceries,Credit Card,Online,Shell,Monthly subscription,Variable,Tuesday
+411,2023-12-02,66.73,Bills,Credit Card,Pharmacy,Walmart,Doctor's visit,Fixed,Saturday
+412,2024-05-06,63.26,Eating Out,Credit Card,Supermarket,Netflix,Weekly groceries,Variable,Monday
+413,2024-06-21,54.74,Eating Out,Cash,Restaurant,Walmart,Monthly subscription,Variable,Friday
+414,2023-09-20,151.35,Entertainment,Debit Card,Mall,Amazon,Gas refill,Variable,Wednesday
+415,2024-06-21,199.61,Groceries,Debit Card,Pharmacy,Netflix,Gas refill,Variable,Friday
+416,2024-04-14,109.13,Eating Out,Cash,Fuel Station,Starbucks,Bus fare,Variable,Sunday
+417,2023-08-28,189.12,Transport,Debit Card,Fuel Station,Shell,Bus fare,Variable,Monday
+418,2024-05-19,82.34,Eating Out,Credit Card,Mall,Netflix,Doctor's visit,Variable,Sunday
+419,2022-04-11,25.8,Healthcare,Debit Card,Online,Walmart,Doctor's visit,Fixed,Monday
+420,2023-11-26,84.71,Healthcare,Bank Transfer,Restaurant,Shell,Movie night,Fixed,Sunday
+421,2024-04-25,62.74,Transport,Credit Card,Fuel Station,Shell,Bus fare,Variable,Thursday
+422,2023-11-03,101.21,Eating Out,Bank Transfer,Fuel Station,CVS,Doctor's visit,Variable,Friday
+423,2022-08-26,133.12,Eating Out,Bank Transfer,Restaurant,Starbucks,Movie night,Variable,Friday
+424,2022-09-08,94.9,Bills,Credit Card,Supermarket,CVS,Gas refill,Fixed,Thursday
+425,2023-01-28,187.36,Eating Out,Credit Card,Restaurant,Amazon,Bus fare,Variable,Saturday
+426,2024-02-06,177.53,Transport,Credit Card,Restaurant,Amazon,Weekly groceries,Variable,Tuesday
+427,2022-01-22,141.89,Bills,Bank Transfer,Supermarket,Walmart,Gift shopping,Fixed,Saturday
+428,2023-03-06,100.49,Eating Out,Cash,Supermarket,Amazon,Gift shopping,Variable,Monday
+429,2023-02-05,30.68,Bills,Debit Card,Restaurant,Shell,Monthly subscription,Fixed,Sunday
+430,2024-10-03,82.42,Healthcare,Credit Card,Restaurant,CVS,Weekly groceries,Fixed,Thursday
+431,2023-02-01,142.36,Healthcare,Bank Transfer,Pharmacy,Walmart,Gift shopping,Fixed,Wednesday
+432,2023-08-10,60.55,Eating Out,Credit Card,Mall,Amazon,Bus fare,Variable,Thursday
+433,2024-10-16,25.28,Entertainment,Bank Transfer,Pharmacy,Walmart,Weekly groceries,Variable,Wednesday
+434,2024-08-08,182.04,Healthcare,Cash,Pharmacy,Shell,Bus fare,Fixed,Thursday
+435,2024-04-10,143.26,Bills,Debit Card,Online,CVS,Movie night,Fixed,Wednesday
+436,2022-07-19,124.98,Transport,Cash,Restaurant,Shell,Gift shopping,Variable,Tuesday
+437,2023-12-01,159.54,Entertainment,Credit Card,Pharmacy,Netflix,Weekly groceries,Variable,Friday
+438,2023-03-28,167.95,Eating Out,Bank Transfer,Restaurant,Amazon,Monthly subscription,Variable,Tuesday
+439,2022-05-19,99.27,Eating Out,Credit Card,Pharmacy,Amazon,Bus fare,Variable,Thursday
+440,2024-01-25,176.83,Entertainment,Debit Card,Online,Starbucks,Doctor's visit,Variable,Thursday
+441,2023-01-23,183.7,Groceries,Cash,Restaurant,Amazon,Doctor's visit,Variable,Monday
+442,2023-12-20,57.95,Entertainment,Debit Card,Mall,Walmart,Doctor's visit,Variable,Wednesday
+443,2023-12-11,123.47,Transport,Credit Card,Online,Walmart,Gift shopping,Variable,Monday
+444,2023-03-24,107.68,Eating Out,Cash,Supermarket,CVS,Movie night,Variable,Friday
+445,2022-12-17,109.9,Bills,Bank Transfer,Mall,Shell,Bus fare,Fixed,Saturday
+446,2023-10-27,187.84,Healthcare,Credit Card,Fuel Station,Walmart,Doctor's visit,Fixed,Friday
+447,2022-11-22,64.51,Groceries,Bank Transfer,Fuel Station,Starbucks,Dinner with friends,Variable,Tuesday
+448,2023-03-01,196.77,Bills,Debit Card,Pharmacy,Shell,Monthly subscription,Fixed,Wednesday
+449,2022-06-14,180.92,Entertainment,Credit Card,Restaurant,Shell,Gas refill,Variable,Tuesday
+450,2023-10-27,94.45,Eating Out,Bank Transfer,Restaurant,Shell,Gas refill,Variable,Friday
+451,2023-11-05,164.4,Transport,Cash,Mall,CVS,Movie night,Variable,Sunday
+452,2023-04-08,154.96,Entertainment,Bank Transfer,Supermarket,Amazon,Movie night,Variable,Saturday
+453,2024-01-24,137.19,Entertainment,Bank Transfer,Restaurant,Walmart,Gift shopping,Variable,Wednesday
+454,2024-01-18,67.37,Bills,Bank Transfer,Fuel Station,Amazon,Dinner with friends,Fixed,Thursday
+455,2022-02-16,43.31,Bills,Credit Card,Supermarket,Netflix,Gift shopping,Fixed,Wednesday
+456,2024-10-09,135.95,Eating Out,Debit Card,Supermarket,Shell,Bus fare,Variable,Wednesday
+457,2023-10-02,169.38,Bills,Bank Transfer,Online,Netflix,Bus fare,Fixed,Monday
+458,2024-07-18,8.17,Groceries,Credit Card,Mall,Amazon,Monthly subscription,Variable,Thursday
+459,2022-12-04,130.35,Eating Out,Credit Card,Mall,Walmart,Gas refill,Variable,Sunday
+460,2024-06-05,91.36,Transport,Debit Card,Mall,Shell,Weekly groceries,Variable,Wednesday
+461,2022-10-16,180.13,Groceries,Debit Card,Fuel Station,Netflix,Movie night,Variable,Sunday
+462,2022-04-26,67.69,Entertainment,Bank Transfer,Pharmacy,CVS,Monthly subscription,Variable,Tuesday
+463,2023-09-29,97.47,Healthcare,Bank Transfer,Mall,Netflix,Dinner with friends,Fixed,Friday
+464,2023-02-14,105.38,Bills,Credit Card,Restaurant,Shell,Dinner with friends,Fixed,Tuesday
+465,2023-05-14,32.39,Transport,Debit Card,Restaurant,Starbucks,Dinner with friends,Variable,Sunday
+466,2023-09-15,144.01,Eating Out,Cash,Mall,Shell,Gas refill,Variable,Friday
+467,2023-08-09,166.94,Bills,Credit Card,Restaurant,CVS,Dinner with friends,Fixed,Wednesday
+468,2022-05-27,16.29,Groceries,Bank Transfer,Online,CVS,Weekly groceries,Variable,Friday
+469,2024-02-12,61.82,Entertainment,Debit Card,Pharmacy,Netflix,Bus fare,Variable,Monday
+470,2023-10-06,12.42,Entertainment,Credit Card,Fuel Station,Amazon,Bus fare,Variable,Friday
+471,2022-10-21,191.53,Bills,Cash,Pharmacy,Amazon,Monthly subscription,Fixed,Friday
+472,2022-04-27,135.1,Eating Out,Cash,Supermarket,Netflix,Bus fare,Variable,Wednesday
+473,2022-04-20,193.02,Eating Out,Debit Card,Supermarket,Amazon,Bus fare,Variable,Wednesday
+474,2022-06-29,108.64,Bills,Credit Card,Fuel Station,Amazon,Bus fare,Fixed,Wednesday
+475,2023-07-16,161.4,Healthcare,Cash,Pharmacy,Starbucks,Weekly groceries,Fixed,Sunday
+476,2023-05-31,78.01,Bills,Cash,Mall,Netflix,Weekly groceries,Fixed,Wednesday
+477,2022-03-16,73.99,Bills,Credit Card,Mall,Walmart,Bus fare,Fixed,Wednesday
+478,2023-05-06,78.76,Healthcare,Bank Transfer,Online,Starbucks,Dinner with friends,Fixed,Saturday
+479,2022-01-29,133.28,Transport,Cash,Fuel Station,Netflix,Bus fare,Variable,Saturday
+480,2024-05-05,75.09,Bills,Cash,Fuel Station,Amazon,Gas refill,Fixed,Sunday
+481,2022-11-01,180.57,Transport,Cash,Pharmacy,Amazon,Monthly subscription,Variable,Tuesday
+482,2024-02-17,196.74,Groceries,Cash,Fuel Station,Walmart,Gas refill,Variable,Saturday
+483,2024-05-26,10.93,Bills,Cash,Restaurant,Amazon,Doctor's visit,Fixed,Sunday
+484,2024-05-07,42.76,Bills,Debit Card,Restaurant,Walmart,Monthly subscription,Fixed,Tuesday
+485,2024-06-04,26.89,Eating Out,Bank Transfer,Supermarket,Amazon,Doctor's visit,Variable,Tuesday
+486,2023-09-05,13.26,Bills,Cash,Fuel Station,Shell,Weekly groceries,Fixed,Tuesday
+487,2022-04-01,49.41,Healthcare,Cash,Pharmacy,Shell,Weekly groceries,Fixed,Friday
+488,2023-09-10,92.12,Transport,Credit Card,Supermarket,Amazon,Bus fare,Variable,Sunday
+489,2022-01-13,168.21,Healthcare,Credit Card,Online,Walmart,Doctor's visit,Fixed,Thursday
+490,2022-08-14,48.26,Transport,Debit Card,Fuel Station,Walmart,Weekly groceries,Variable,Sunday
+491,2023-02-26,101.32,Bills,Debit Card,Supermarket,Starbucks,Weekly groceries,Fixed,Sunday
+492,2022-06-17,186.28,Transport,Bank Transfer,Online,Shell,Bus fare,Variable,Friday
+493,2024-07-17,135.11,Bills,Bank Transfer,Pharmacy,CVS,Gift shopping,Fixed,Wednesday
+494,2024-07-11,160.63,Healthcare,Cash,Online,CVS,Weekly groceries,Fixed,Thursday
+495,2022-04-10,112.44,Groceries,Credit Card,Supermarket,Starbucks,Doctor's visit,Variable,Sunday
+496,2022-11-03,196.19,Transport,Bank Transfer,Fuel Station,Walmart,Monthly subscription,Variable,Thursday
+497,2022-12-11,119.79,Transport,Cash,Pharmacy,Amazon,Weekly groceries,Variable,Sunday
+498,2024-01-05,13.87,Transport,Credit Card,Supermarket,Shell,Dinner with friends,Variable,Friday
+499,2024-07-09,43.61,Transport,Debit Card,Restaurant,Netflix,Gift shopping,Variable,Tuesday
+500,2022-10-12,83.93,Bills,Cash,Fuel Station,Amazon,Movie night,Fixed,Wednesday
+501,2022-06-22,122.25,Bills,Cash,Mall,Walmart,Gas refill,Fixed,Wednesday
+502,2022-10-29,155.53,Groceries,Debit Card,Online,CVS,Weekly groceries,Variable,Saturday
+503,2024-04-02,85.55,Bills,Credit Card,Online,Shell,Movie night,Fixed,Tuesday
+504,2022-01-01,143.46,Healthcare,Debit Card,Fuel Station,CVS,Movie night,Fixed,Saturday
+505,2022-05-19,159.02,Transport,Cash,Mall,Walmart,Gift shopping,Variable,Thursday
+506,2023-12-09,66.87,Groceries,Bank Transfer,Fuel Station,CVS,Gas refill,Variable,Saturday
+507,2023-03-18,195.96,Entertainment,Credit Card,Online,CVS,Monthly subscription,Variable,Saturday
+508,2024-07-04,131.68,Healthcare,Cash,Online,Walmart,Bus fare,Fixed,Thursday
+509,2022-02-20,176.79,Eating Out,Debit Card,Fuel Station,Netflix,Gas refill,Variable,Sunday
+510,2022-08-31,113.41,Groceries,Credit Card,Restaurant,Walmart,Bus fare,Variable,Wednesday
+511,2024-05-20,149.61,Eating Out,Cash,Fuel Station,CVS,Gift shopping,Variable,Monday
+512,2022-01-21,155.26,Transport,Credit Card,Pharmacy,Walmart,Monthly subscription,Variable,Friday
+513,2023-11-15,182.11,Entertainment,Bank Transfer,Fuel Station,Walmart,Bus fare,Variable,Wednesday
+514,2023-09-23,34.32,Eating Out,Bank Transfer,Online,Netflix,Movie night,Variable,Saturday
+515,2022-05-09,113.87,Healthcare,Bank Transfer,Restaurant,Starbucks,Weekly groceries,Fixed,Monday
+516,2023-01-01,88.53,Groceries,Credit Card,Fuel Station,Walmart,Doctor's visit,Variable,Sunday
+517,2022-04-16,185.02,Bills,Bank Transfer,Online,Walmart,Weekly groceries,Fixed,Saturday
+518,2022-08-14,25.49,Healthcare,Credit Card,Fuel Station,Amazon,Doctor's visit,Fixed,Sunday
+519,2023-06-30,196.6,Eating Out,Credit Card,Pharmacy,Shell,Dinner with friends,Variable,Friday
+520,2022-06-01,175.71,Bills,Debit Card,Restaurant,Shell,Monthly subscription,Fixed,Wednesday
+521,2022-09-24,19.4,Eating Out,Cash,Online,Shell,Monthly subscription,Variable,Saturday
+522,2024-10-27,100.74,Transport,Bank Transfer,Restaurant,CVS,Weekly groceries,Variable,Sunday
+523,2023-09-07,144.92,Bills,Cash,Fuel Station,Shell,Bus fare,Fixed,Thursday
+524,2022-11-28,148.94,Entertainment,Cash,Fuel Station,Shell,Monthly subscription,Variable,Monday
+525,2023-01-06,181.77,Healthcare,Debit Card,Mall,Amazon,Doctor's visit,Fixed,Friday
+526,2023-11-22,160.97,Groceries,Bank Transfer,Online,Netflix,Bus fare,Variable,Wednesday
+527,2023-11-01,65.63,Entertainment,Cash,Supermarket,Shell,Doctor's visit,Variable,Wednesday
+528,2023-09-20,102.19,Eating Out,Credit Card,Pharmacy,Amazon,Monthly subscription,Variable,Wednesday
+529,2024-08-26,141.85,Eating Out,Cash,Fuel Station,Amazon,Doctor's visit,Variable,Monday
+530,2023-01-25,32.0,Entertainment,Credit Card,Online,Walmart,Gift shopping,Variable,Wednesday
+531,2023-09-21,42.83,Eating Out,Credit Card,Fuel Station,Shell,Dinner with friends,Variable,Thursday
+532,2022-07-01,98.8,Transport,Credit Card,Online,CVS,Doctor's visit,Variable,Friday
+533,2022-08-24,63.16,Groceries,Debit Card,Supermarket,Amazon,Weekly groceries,Variable,Wednesday
+534,2022-07-13,173.2,Healthcare,Bank Transfer,Restaurant,Amazon,Dinner with friends,Fixed,Wednesday
+535,2023-08-15,119.32,Transport,Cash,Pharmacy,Amazon,Gift shopping,Variable,Tuesday
+536,2022-11-29,72.99,Bills,Debit Card,Supermarket,Amazon,Weekly groceries,Fixed,Tuesday
+537,2023-07-14,170.52,Groceries,Bank Transfer,Pharmacy,Starbucks,Doctor's visit,Variable,Friday
+538,2023-08-12,161.95,Groceries,Credit Card,Online,Amazon,Bus fare,Variable,Saturday
+539,2022-05-01,199.68,Eating Out,Bank Transfer,Pharmacy,Netflix,Weekly groceries,Variable,Sunday
+540,2022-12-12,170.22,Healthcare,Cash,Restaurant,Netflix,Bus fare,Fixed,Monday
+541,2023-06-10,85.82,Bills,Debit Card,Mall,CVS,Dinner with friends,Fixed,Saturday
+542,2022-08-11,29.86,Healthcare,Debit Card,Pharmacy,Shell,Gift shopping,Fixed,Thursday
+543,2022-08-25,168.92,Entertainment,Credit Card,Mall,Shell,Doctor's visit,Variable,Thursday
+544,2022-04-16,16.65,Healthcare,Credit Card,Restaurant,CVS,Bus fare,Fixed,Saturday
+545,2023-09-05,73.3,Bills,Credit Card,Supermarket,Shell,Weekly groceries,Fixed,Tuesday
+546,2024-07-11,184.35,Entertainment,Cash,Fuel Station,Amazon,Monthly subscription,Variable,Thursday
+547,2022-05-24,192.35,Healthcare,Bank Transfer,Pharmacy,Shell,Dinner with friends,Fixed,Tuesday
+548,2024-08-17,129.91,Healthcare,Debit Card,Pharmacy,Shell,Dinner with friends,Fixed,Saturday
+549,2022-04-06,139.29,Bills,Credit Card,Pharmacy,Netflix,Bus fare,Fixed,Wednesday
+550,2022-12-19,13.28,Bills,Debit Card,Pharmacy,CVS,Dinner with friends,Fixed,Monday
+551,2023-05-12,105.32,Entertainment,Credit Card,Mall,Shell,Doctor's visit,Variable,Friday
+552,2022-07-28,111.64,Transport,Bank Transfer,Restaurant,Walmart,Dinner with friends,Variable,Thursday
+553,2022-10-16,71.32,Eating Out,Debit Card,Mall,Amazon,Gas refill,Variable,Sunday
+554,2022-03-04,18.38,Healthcare,Bank Transfer,Online,Amazon,Doctor's visit,Fixed,Friday
+555,2023-01-30,49.64,Eating Out,Credit Card,Online,Amazon,Movie night,Variable,Monday
+556,2023-02-01,74.81,Eating Out,Debit Card,Supermarket,Walmart,Gift shopping,Variable,Wednesday
+557,2022-12-13,89.85,Entertainment,Cash,Supermarket,Starbucks,Dinner with friends,Variable,Tuesday
+558,2022-05-31,120.23,Healthcare,Cash,Pharmacy,CVS,Gas refill,Fixed,Tuesday
+559,2023-02-08,145.87,Healthcare,Cash,Online,Starbucks,Gas refill,Fixed,Wednesday
+560,2023-01-25,66.94,Eating Out,Bank Transfer,Mall,Netflix,Gas refill,Variable,Wednesday
+561,2024-03-15,69.15,Healthcare,Bank Transfer,Restaurant,Starbucks,Doctor's visit,Fixed,Friday
+562,2023-08-19,8.84,Healthcare,Credit Card,Online,Walmart,Gas refill,Fixed,Saturday
+563,2022-05-08,12.97,Groceries,Credit Card,Online,Netflix,Weekly groceries,Variable,Sunday
+564,2023-04-06,55.28,Bills,Debit Card,Mall,Amazon,Gift shopping,Fixed,Thursday
+565,2023-08-16,149.35,Entertainment,Debit Card,Online,Shell,Weekly groceries,Variable,Wednesday
+566,2023-02-18,127.52,Entertainment,Bank Transfer,Fuel Station,CVS,Gift shopping,Variable,Saturday
+567,2024-10-21,155.11,Groceries,Cash,Mall,Amazon,Movie night,Variable,Monday
+568,2023-12-21,154.94,Bills,Credit Card,Fuel Station,Shell,Dinner with friends,Fixed,Thursday
+569,2023-07-28,172.03,Eating Out,Credit Card,Mall,Shell,Dinner with friends,Variable,Friday
+570,2022-11-20,145.46,Entertainment,Bank Transfer,Mall,Amazon,Gas refill,Variable,Sunday
+571,2022-04-27,195.91,Entertainment,Bank Transfer,Mall,CVS,Movie night,Variable,Wednesday
+572,2024-01-12,180.27,Entertainment,Credit Card,Online,CVS,Dinner with friends,Variable,Friday
+573,2024-04-04,119.41,Entertainment,Bank Transfer,Online,Walmart,Gift shopping,Variable,Thursday
+574,2024-08-10,119.69,Entertainment,Credit Card,Restaurant,Amazon,Doctor's visit,Variable,Saturday
+575,2023-07-15,11.68,Entertainment,Cash,Supermarket,Walmart,Gas refill,Variable,Saturday
+576,2023-05-08,199.71,Groceries,Credit Card,Fuel Station,Starbucks,Monthly subscription,Variable,Monday
+577,2022-03-21,30.66,Entertainment,Credit Card,Restaurant,Starbucks,Dinner with friends,Variable,Monday
+578,2024-01-13,149.37,Transport,Cash,Fuel Station,Amazon,Movie night,Variable,Saturday
+579,2023-02-22,165.1,Bills,Cash,Mall,Walmart,Gas refill,Fixed,Wednesday
+580,2024-07-01,77.75,Bills,Debit Card,Pharmacy,CVS,Movie night,Fixed,Monday
+581,2022-08-17,43.39,Healthcare,Cash,Restaurant,Amazon,Dinner with friends,Fixed,Wednesday
+582,2023-01-02,24.26,Eating Out,Bank Transfer,Pharmacy,CVS,Gas refill,Variable,Monday
+583,2022-01-08,150.98,Healthcare,Debit Card,Pharmacy,Walmart,Bus fare,Fixed,Saturday
+584,2023-05-25,93.27,Entertainment,Cash,Fuel Station,Walmart,Movie night,Variable,Thursday
+585,2024-03-01,144.17,Healthcare,Cash,Fuel Station,Amazon,Gift shopping,Fixed,Friday
+586,2022-06-08,183.5,Entertainment,Credit Card,Online,CVS,Dinner with friends,Variable,Wednesday
+587,2023-05-11,33.58,Groceries,Credit Card,Mall,Walmart,Monthly subscription,Variable,Thursday
+588,2023-09-19,184.24,Transport,Bank Transfer,Supermarket,CVS,Gift shopping,Variable,Tuesday
+589,2023-06-08,85.27,Bills,Cash,Fuel Station,Walmart,Gas refill,Fixed,Thursday
+590,2024-03-09,64.53,Bills,Credit Card,Supermarket,Netflix,Gift shopping,Fixed,Saturday
+591,2022-04-01,188.9,Eating Out,Bank Transfer,Supermarket,Netflix,Weekly groceries,Variable,Friday
+592,2022-10-18,198.18,Entertainment,Debit Card,Supermarket,CVS,Movie night,Variable,Tuesday
+593,2023-07-21,43.78,Groceries,Cash,Supermarket,Shell,Movie night,Variable,Friday
+594,2023-11-07,133.08,Eating Out,Debit Card,Pharmacy,Walmart,Gas refill,Variable,Tuesday
+595,2024-05-27,25.77,Eating Out,Cash,Pharmacy,CVS,Bus fare,Variable,Monday
+596,2023-09-17,131.93,Eating Out,Cash,Pharmacy,CVS,Bus fare,Variable,Sunday
+597,2023-02-26,166.33,Groceries,Cash,Mall,Shell,Bus fare,Variable,Sunday
+598,2023-03-14,138.48,Groceries,Cash,Restaurant,Starbucks,Weekly groceries,Variable,Tuesday
+599,2022-04-12,86.38,Entertainment,Cash,Fuel Station,CVS,Movie night,Variable,Tuesday
+600,2024-02-27,79.7,Groceries,Bank Transfer,Online,Walmart,Doctor's visit,Variable,Tuesday
+601,2024-05-14,81.66,Eating Out,Credit Card,Pharmacy,Starbucks,Gift shopping,Variable,Tuesday
+602,2023-01-16,119.99,Entertainment,Debit Card,Mall,CVS,Movie night,Variable,Monday
+603,2022-04-11,176.91,Eating Out,Cash,Mall,Netflix,Gas refill,Variable,Monday
+604,2024-02-05,186.17,Eating Out,Credit Card,Fuel Station,Starbucks,Doctor's visit,Variable,Monday
+605,2024-06-20,15.44,Bills,Cash,Online,Starbucks,Gift shopping,Fixed,Thursday
+606,2022-08-19,40.42,Groceries,Cash,Supermarket,Amazon,Weekly groceries,Variable,Friday
+607,2023-05-20,26.88,Healthcare,Debit Card,Mall,Walmart,Bus fare,Fixed,Saturday
+608,2023-10-25,42.7,Bills,Cash,Restaurant,Walmart,Gift shopping,Fixed,Wednesday
+609,2022-09-13,72.59,Bills,Bank Transfer,Restaurant,Shell,Gift shopping,Fixed,Tuesday
+610,2023-06-16,103.77,Healthcare,Debit Card,Restaurant,Starbucks,Monthly subscription,Fixed,Friday
+611,2023-10-23,127.74,Eating Out,Bank Transfer,Mall,CVS,Weekly groceries,Variable,Monday
+612,2024-05-24,147.77,Healthcare,Cash,Mall,CVS,Bus fare,Fixed,Friday
+613,2023-08-10,178.57,Groceries,Credit Card,Fuel Station,Netflix,Bus fare,Variable,Thursday
+614,2022-05-04,197.87,Eating Out,Bank Transfer,Mall,Netflix,Dinner with friends,Variable,Wednesday
+615,2022-11-13,134.26,Transport,Cash,Mall,CVS,Weekly groceries,Variable,Sunday
+616,2024-01-12,169.85,Eating Out,Bank Transfer,Restaurant,Starbucks,Doctor's visit,Variable,Friday
+617,2023-11-13,156.72,Eating Out,Credit Card,Fuel Station,Amazon,Gas refill,Variable,Monday
+618,2022-07-08,64.97,Groceries,Credit Card,Online,CVS,Bus fare,Variable,Friday
+619,2023-11-23,175.76,Eating Out,Credit Card,Online,Starbucks,Doctor's visit,Variable,Thursday
+620,2022-03-01,13.34,Healthcare,Credit Card,Mall,Starbucks,Doctor's visit,Fixed,Tuesday
+621,2023-05-06,5.07,Eating Out,Cash,Restaurant,Netflix,Dinner with friends,Variable,Saturday
+622,2023-06-26,58.38,Bills,Cash,Fuel Station,Starbucks,Dinner with friends,Fixed,Monday
+623,2022-08-14,95.11,Healthcare,Credit Card,Online,Shell,Weekly groceries,Fixed,Sunday
+624,2023-01-18,129.48,Healthcare,Bank Transfer,Restaurant,Netflix,Gas refill,Fixed,Wednesday
+625,2022-08-05,24.85,Eating Out,Credit Card,Mall,CVS,Weekly groceries,Variable,Friday
+626,2024-05-17,136.24,Groceries,Debit Card,Mall,Netflix,Bus fare,Variable,Friday
+627,2023-05-24,161.35,Bills,Cash,Pharmacy,Amazon,Gift shopping,Fixed,Wednesday
+628,2023-03-24,41.14,Healthcare,Debit Card,Mall,Starbucks,Monthly subscription,Fixed,Friday
+629,2023-02-15,85.95,Entertainment,Bank Transfer,Restaurant,Netflix,Movie night,Variable,Wednesday
+630,2023-12-31,106.4,Healthcare,Credit Card,Mall,Starbucks,Bus fare,Fixed,Sunday
+631,2022-08-05,93.1,Entertainment,Debit Card,Supermarket,Walmart,Doctor's visit,Variable,Friday
+632,2023-04-09,160.97,Eating Out,Debit Card,Pharmacy,Amazon,Weekly groceries,Variable,Sunday
+633,2023-01-10,192.3,Bills,Credit Card,Mall,Netflix,Weekly groceries,Fixed,Tuesday
+634,2024-07-04,160.8,Transport,Debit Card,Mall,Shell,Gas refill,Variable,Thursday
+635,2024-01-22,20.21,Healthcare,Debit Card,Pharmacy,Amazon,Weekly groceries,Fixed,Monday
+636,2023-06-08,161.96,Entertainment,Cash,Supermarket,Starbucks,Gift shopping,Variable,Thursday
+637,2024-07-18,17.99,Healthcare,Credit Card,Fuel Station,Amazon,Gas refill,Fixed,Thursday
+638,2022-04-30,51.01,Bills,Cash,Pharmacy,Walmart,Gift shopping,Fixed,Saturday
+639,2022-10-10,34.85,Healthcare,Cash,Restaurant,Amazon,Gas refill,Fixed,Monday
+640,2023-07-15,43.52,Entertainment,Credit Card,Restaurant,Netflix,Weekly groceries,Variable,Saturday
+641,2022-08-28,108.02,Healthcare,Debit Card,Supermarket,Walmart,Monthly subscription,Fixed,Sunday
+642,2023-11-26,135.98,Bills,Credit Card,Mall,Starbucks,Bus fare,Fixed,Sunday
+643,2023-09-01,96.71,Eating Out,Credit Card,Pharmacy,Walmart,Weekly groceries,Variable,Friday
+644,2022-12-23,192.14,Bills,Credit Card,Online,Shell,Monthly subscription,Fixed,Friday
+645,2023-08-23,51.86,Bills,Credit Card,Supermarket,Amazon,Dinner with friends,Fixed,Wednesday
+646,2023-05-30,153.81,Groceries,Debit Card,Pharmacy,Starbucks,Monthly subscription,Variable,Tuesday
+647,2022-09-19,174.69,Eating Out,Cash,Pharmacy,Netflix,Weekly groceries,Variable,Monday
+648,2024-07-23,114.6,Healthcare,Debit Card,Supermarket,Shell,Movie night,Fixed,Tuesday
+649,2023-09-05,93.96,Transport,Bank Transfer,Online,Amazon,Movie night,Variable,Tuesday
+650,2023-03-26,121.26,Healthcare,Cash,Restaurant,CVS,Weekly groceries,Fixed,Sunday
+651,2023-07-26,88.62,Healthcare,Credit Card,Fuel Station,Netflix,Monthly subscription,Fixed,Wednesday
+652,2024-06-20,113.26,Entertainment,Debit Card,Fuel Station,Shell,Weekly groceries,Variable,Thursday
+653,2022-09-19,86.3,Bills,Credit Card,Restaurant,Amazon,Gift shopping,Fixed,Monday
+654,2022-02-08,83.09,Bills,Credit Card,Mall,Netflix,Weekly groceries,Fixed,Tuesday
+655,2022-03-30,140.59,Eating Out,Credit Card,Fuel Station,Starbucks,Movie night,Variable,Wednesday
+656,2023-01-06,23.11,Groceries,Debit Card,Fuel Station,CVS,Monthly subscription,Variable,Friday
+657,2024-08-03,37.48,Healthcare,Bank Transfer,Mall,Amazon,Movie night,Fixed,Saturday
+658,2023-02-02,170.98,Entertainment,Credit Card,Fuel Station,Netflix,Movie night,Variable,Thursday
+659,2023-04-30,155.36,Transport,Cash,Restaurant,Shell,Movie night,Variable,Sunday
+660,2022-03-23,59.88,Bills,Bank Transfer,Online,Starbucks,Bus fare,Fixed,Wednesday
+661,2023-03-18,78.57,Groceries,Credit Card,Supermarket,Shell,Doctor's visit,Variable,Saturday
+662,2023-09-06,185.58,Entertainment,Debit Card,Pharmacy,Starbucks,Bus fare,Variable,Wednesday
+663,2023-04-15,164.53,Entertainment,Bank Transfer,Mall,CVS,Monthly subscription,Variable,Saturday
+664,2022-07-03,124.8,Transport,Debit Card,Restaurant,CVS,Weekly groceries,Variable,Sunday
+665,2022-04-22,48.19,Eating Out,Credit Card,Fuel Station,CVS,Bus fare,Variable,Friday
+666,2024-02-19,13.63,Healthcare,Cash,Pharmacy,Netflix,Movie night,Fixed,Monday
+667,2022-04-08,89.1,Entertainment,Credit Card,Supermarket,Amazon,Monthly subscription,Variable,Friday
+668,2022-08-27,136.16,Entertainment,Debit Card,Supermarket,Netflix,Monthly subscription,Variable,Saturday
+669,2023-02-08,166.55,Healthcare,Credit Card,Mall,Shell,Movie night,Fixed,Wednesday
+670,2024-11-01,171.27,Transport,Credit Card,Mall,Walmart,Gas refill,Variable,Friday
+671,2024-09-20,11.39,Healthcare,Bank Transfer,Fuel Station,Netflix,Gas refill,Fixed,Friday
+672,2022-10-29,52.61,Bills,Debit Card,Online,Starbucks,Movie night,Fixed,Saturday
+673,2024-02-14,71.12,Eating Out,Bank Transfer,Supermarket,CVS,Gas refill,Variable,Wednesday
+674,2023-08-25,41.8,Transport,Debit Card,Restaurant,Shell,Dinner with friends,Variable,Friday
+675,2023-05-09,161.58,Bills,Debit Card,Fuel Station,Netflix,Weekly groceries,Fixed,Tuesday
+676,2023-07-05,154.66,Transport,Debit Card,Supermarket,CVS,Dinner with friends,Variable,Wednesday
+677,2022-02-21,105.78,Healthcare,Bank Transfer,Fuel Station,CVS,Doctor's visit,Fixed,Monday
+678,2024-02-11,196.67,Healthcare,Bank Transfer,Supermarket,CVS,Movie night,Fixed,Sunday
+679,2023-03-07,33.09,Transport,Bank Transfer,Online,Shell,Gift shopping,Variable,Tuesday
+680,2024-02-10,180.43,Healthcare,Cash,Fuel Station,Starbucks,Monthly subscription,Fixed,Saturday
+681,2023-10-08,27.71,Transport,Credit Card,Fuel Station,CVS,Monthly subscription,Variable,Sunday
+682,2024-02-23,36.82,Groceries,Debit Card,Supermarket,CVS,Gas refill,Variable,Friday
+683,2024-04-26,140.76,Healthcare,Debit Card,Fuel Station,Starbucks,Movie night,Fixed,Friday
+684,2022-06-30,26.37,Transport,Credit Card,Restaurant,Starbucks,Weekly groceries,Variable,Thursday
+685,2022-09-21,115.34,Healthcare,Cash,Online,Amazon,Dinner with friends,Fixed,Wednesday
+686,2023-11-23,86.95,Bills,Debit Card,Supermarket,CVS,Dinner with friends,Fixed,Thursday
+687,2024-02-01,147.05,Bills,Debit Card,Mall,Netflix,Weekly groceries,Fixed,Thursday
+688,2024-08-05,180.63,Entertainment,Bank Transfer,Pharmacy,Amazon,Dinner with friends,Variable,Monday
+689,2023-11-27,155.12,Healthcare,Cash,Supermarket,Starbucks,Gift shopping,Fixed,Monday
+690,2023-09-18,170.69,Groceries,Bank Transfer,Restaurant,CVS,Gas refill,Variable,Monday
+691,2023-01-31,11.42,Bills,Cash,Restaurant,Walmart,Weekly groceries,Fixed,Tuesday
+692,2023-03-28,65.49,Groceries,Debit Card,Mall,CVS,Movie night,Variable,Tuesday
+693,2023-05-23,105.51,Entertainment,Bank Transfer,Supermarket,Netflix,Gift shopping,Variable,Tuesday
+694,2023-05-20,86.11,Groceries,Debit Card,Supermarket,Netflix,Dinner with friends,Variable,Saturday
+695,2023-01-07,50.09,Bills,Debit Card,Supermarket,Shell,Weekly groceries,Fixed,Saturday
+696,2022-12-16,65.04,Eating Out,Bank Transfer,Restaurant,Amazon,Gas refill,Variable,Friday
+697,2023-09-07,189.36,Groceries,Credit Card,Online,Walmart,Doctor's visit,Variable,Thursday
+698,2024-06-26,62.37,Healthcare,Debit Card,Online,Amazon,Gas refill,Fixed,Wednesday
+699,2022-01-04,74.01,Groceries,Cash,Mall,CVS,Movie night,Variable,Tuesday
+700,2022-06-15,5.72,Eating Out,Cash,Restaurant,CVS,Gift shopping,Variable,Wednesday
+701,2024-08-27,169.79,Transport,Cash,Pharmacy,Amazon,Weekly groceries,Variable,Tuesday
+702,2023-06-08,35.19,Eating Out,Debit Card,Fuel Station,Starbucks,Movie night,Variable,Thursday
+703,2024-02-24,44.81,Transport,Debit Card,Mall,Netflix,Weekly groceries,Variable,Saturday
+704,2023-09-28,54.78,Eating Out,Bank Transfer,Online,CVS,Dinner with friends,Variable,Thursday
+705,2022-04-14,177.5,Groceries,Cash,Pharmacy,Amazon,Dinner with friends,Variable,Thursday
+706,2023-12-01,45.26,Transport,Credit Card,Mall,Walmart,Gift shopping,Variable,Friday
+707,2022-05-10,160.52,Transport,Bank Transfer,Mall,Netflix,Gas refill,Variable,Tuesday
+708,2023-03-25,162.57,Eating Out,Debit Card,Restaurant,Netflix,Gas refill,Variable,Saturday
+709,2024-05-03,185.77,Groceries,Bank Transfer,Supermarket,Amazon,Weekly groceries,Variable,Friday
+710,2024-06-23,27.53,Groceries,Cash,Online,Amazon,Weekly groceries,Variable,Sunday
+711,2023-04-22,47.37,Groceries,Credit Card,Online,Walmart,Dinner with friends,Variable,Saturday
+712,2023-01-09,149.87,Transport,Cash,Supermarket,Walmart,Monthly subscription,Variable,Monday
+713,2024-04-29,43.22,Transport,Debit Card,Pharmacy,Netflix,Gas refill,Variable,Monday
+714,2023-03-16,60.83,Healthcare,Credit Card,Pharmacy,Shell,Bus fare,Fixed,Thursday
+715,2022-05-12,37.51,Healthcare,Credit Card,Pharmacy,Netflix,Movie night,Fixed,Thursday
+716,2023-04-18,38.68,Transport,Debit Card,Supermarket,CVS,Doctor's visit,Variable,Tuesday
+717,2022-08-02,98.9,Groceries,Bank Transfer,Restaurant,Shell,Weekly groceries,Variable,Tuesday
+718,2024-05-29,26.39,Entertainment,Debit Card,Restaurant,Walmart,Dinner with friends,Variable,Wednesday
+719,2024-04-13,67.73,Entertainment,Debit Card,Fuel Station,Starbucks,Gas refill,Variable,Saturday
+720,2024-04-24,88.19,Transport,Bank Transfer,Mall,Amazon,Bus fare,Variable,Wednesday
+721,2024-05-08,9.79,Transport,Credit Card,Online,Amazon,Gas refill,Variable,Wednesday
+722,2024-01-20,80.72,Groceries,Cash,Supermarket,Amazon,Gift shopping,Variable,Saturday
+723,2024-10-19,23.35,Groceries,Cash,Restaurant,Shell,Weekly groceries,Variable,Saturday
+724,2023-10-19,101.25,Entertainment,Cash,Online,Shell,Dinner with friends,Variable,Thursday
+725,2023-06-13,166.02,Entertainment,Debit Card,Fuel Station,Netflix,Gift shopping,Variable,Tuesday
+726,2023-06-30,164.59,Eating Out,Debit Card,Pharmacy,Walmart,Dinner with friends,Variable,Friday
+727,2024-03-19,20.69,Groceries,Cash,Supermarket,Starbucks,Monthly subscription,Variable,Tuesday
+728,2022-11-25,122.24,Bills,Debit Card,Online,Shell,Weekly groceries,Fixed,Friday
+729,2022-07-25,167.74,Eating Out,Bank Transfer,Restaurant,Netflix,Gas refill,Variable,Monday
+730,2023-08-19,51.4,Groceries,Debit Card,Pharmacy,Netflix,Movie night,Variable,Saturday
+731,2024-01-25,153.58,Bills,Cash,Fuel Station,Walmart,Movie night,Fixed,Thursday
+732,2024-07-08,178.7,Bills,Cash,Mall,Netflix,Gift shopping,Fixed,Monday
+733,2022-11-21,162.19,Transport,Debit Card,Mall,Starbucks,Gas refill,Variable,Monday
+734,2023-10-25,25.92,Transport,Credit Card,Mall,Walmart,Bus fare,Variable,Wednesday
+735,2022-03-21,6.77,Bills,Debit Card,Restaurant,CVS,Doctor's visit,Fixed,Monday
+736,2022-03-25,42.39,Bills,Credit Card,Supermarket,Amazon,Monthly subscription,Fixed,Friday
+737,2024-02-23,57.74,Healthcare,Bank Transfer,Fuel Station,Starbucks,Doctor's visit,Fixed,Friday
+738,2024-03-30,125.16,Eating Out,Bank Transfer,Fuel Station,Amazon,Movie night,Variable,Saturday
+739,2023-11-17,79.93,Bills,Credit Card,Fuel Station,Starbucks,Movie night,Fixed,Friday
+740,2024-10-31,142.16,Transport,Credit Card,Online,Amazon,Weekly groceries,Variable,Thursday
+741,2024-04-28,73.85,Transport,Credit Card,Restaurant,Netflix,Bus fare,Variable,Sunday
+742,2022-01-22,35.11,Transport,Credit Card,Online,Shell,Bus fare,Variable,Saturday
+743,2024-05-14,65.97,Entertainment,Bank Transfer,Restaurant,Shell,Movie night,Variable,Tuesday
+744,2022-12-30,177.44,Eating Out,Bank Transfer,Pharmacy,Starbucks,Bus fare,Variable,Friday
+745,2024-10-16,191.91,Eating Out,Debit Card,Restaurant,Amazon,Dinner with friends,Variable,Wednesday
+746,2023-04-12,45.46,Eating Out,Cash,Mall,Starbucks,Bus fare,Variable,Wednesday
+747,2022-12-05,158.75,Healthcare,Credit Card,Supermarket,Netflix,Dinner with friends,Fixed,Monday
+748,2023-11-29,58.3,Entertainment,Credit Card,Online,Shell,Movie night,Variable,Wednesday
+749,2024-06-30,177.99,Eating Out,Credit Card,Pharmacy,Amazon,Gift shopping,Variable,Sunday
+750,2022-08-05,37.28,Entertainment,Debit Card,Mall,Amazon,Gas refill,Variable,Friday
+751,2022-11-10,134.86,Entertainment,Cash,Fuel Station,Netflix,Bus fare,Variable,Thursday
+752,2024-04-06,21.42,Bills,Credit Card,Pharmacy,Shell,Doctor's visit,Fixed,Saturday
+753,2022-08-05,194.91,Entertainment,Credit Card,Online,CVS,Doctor's visit,Variable,Friday
+754,2022-09-27,141.62,Groceries,Debit Card,Restaurant,Amazon,Bus fare,Variable,Tuesday
+755,2022-03-20,169.15,Groceries,Credit Card,Supermarket,Shell,Bus fare,Variable,Sunday
+756,2022-08-24,115.5,Healthcare,Cash,Mall,CVS,Gift shopping,Fixed,Wednesday
+757,2022-02-14,97.98,Healthcare,Cash,Supermarket,Walmart,Dinner with friends,Fixed,Monday
+758,2023-05-26,126.27,Eating Out,Credit Card,Online,Starbucks,Dinner with friends,Variable,Friday
+759,2022-04-21,108.1,Groceries,Debit Card,Fuel Station,Netflix,Dinner with friends,Variable,Thursday
+760,2023-06-25,96.53,Healthcare,Cash,Pharmacy,Amazon,Weekly groceries,Fixed,Sunday
+761,2022-02-19,153.09,Healthcare,Debit Card,Supermarket,Walmart,Gift shopping,Fixed,Saturday
+762,2024-08-03,39.75,Bills,Cash,Pharmacy,CVS,Movie night,Fixed,Saturday
+763,2022-12-10,38.38,Groceries,Bank Transfer,Supermarket,Amazon,Dinner with friends,Variable,Saturday
+764,2024-08-01,89.21,Entertainment,Cash,Online,Walmart,Gift shopping,Variable,Thursday
+765,2022-10-01,67.55,Healthcare,Credit Card,Fuel Station,Walmart,Dinner with friends,Fixed,Saturday
+766,2023-11-10,19.45,Healthcare,Cash,Pharmacy,Shell,Gift shopping,Fixed,Friday
+767,2022-08-25,169.67,Groceries,Credit Card,Supermarket,Netflix,Weekly groceries,Variable,Thursday
+768,2023-10-25,155.46,Transport,Cash,Supermarket,Amazon,Bus fare,Variable,Wednesday
+769,2022-03-21,111.06,Healthcare,Cash,Online,Starbucks,Monthly subscription,Fixed,Monday
+770,2022-03-16,195.97,Bills,Cash,Pharmacy,Netflix,Weekly groceries,Fixed,Wednesday
+771,2023-11-10,19.16,Eating Out,Credit Card,Supermarket,Starbucks,Dinner with friends,Variable,Friday
+772,2024-10-11,154.5,Transport,Bank Transfer,Fuel Station,Amazon,Weekly groceries,Variable,Friday
+773,2023-01-09,56.94,Bills,Cash,Mall,Amazon,Movie night,Fixed,Monday
+774,2023-03-03,76.88,Bills,Bank Transfer,Online,Starbucks,Doctor's visit,Fixed,Friday
+775,2023-09-04,47.76,Bills,Cash,Supermarket,Amazon,Doctor's visit,Fixed,Monday
+776,2024-02-01,158.86,Groceries,Debit Card,Online,Walmart,Gift shopping,Variable,Thursday
+777,2024-05-21,33.13,Groceries,Debit Card,Restaurant,Walmart,Movie night,Variable,Tuesday
+778,2022-11-01,168.8,Transport,Cash,Supermarket,Amazon,Bus fare,Variable,Tuesday
+779,2024-02-11,134.01,Transport,Credit Card,Mall,Shell,Dinner with friends,Variable,Sunday
+780,2023-04-17,16.51,Entertainment,Debit Card,Fuel Station,Amazon,Doctor's visit,Variable,Monday
+781,2022-10-13,163.14,Entertainment,Credit Card,Restaurant,Amazon,Weekly groceries,Variable,Thursday
+782,2023-09-07,127.41,Entertainment,Cash,Online,Starbucks,Movie night,Variable,Thursday
+783,2023-03-27,181.47,Bills,Debit Card,Fuel Station,CVS,Dinner with friends,Fixed,Monday
+784,2023-10-10,151.0,Eating Out,Bank Transfer,Pharmacy,CVS,Movie night,Variable,Tuesday
+785,2023-11-23,114.42,Entertainment,Credit Card,Pharmacy,Walmart,Gift shopping,Variable,Thursday
+786,2022-09-02,168.13,Transport,Credit Card,Online,Shell,Bus fare,Variable,Friday
+787,2023-08-09,59.22,Eating Out,Debit Card,Pharmacy,Walmart,Dinner with friends,Variable,Wednesday
+788,2023-02-06,111.66,Entertainment,Cash,Pharmacy,Shell,Dinner with friends,Variable,Monday
+789,2022-09-01,62.26,Groceries,Cash,Mall,CVS,Weekly groceries,Variable,Thursday
+790,2023-06-18,193.8,Healthcare,Bank Transfer,Restaurant,Netflix,Gift shopping,Fixed,Sunday
+791,2024-01-23,49.11,Entertainment,Debit Card,Supermarket,Netflix,Gas refill,Variable,Tuesday
+792,2022-09-24,8.07,Entertainment,Credit Card,Restaurant,Shell,Dinner with friends,Variable,Saturday
+793,2022-05-12,68.54,Bills,Debit Card,Online,CVS,Weekly groceries,Fixed,Thursday
+794,2024-09-26,102.99,Bills,Bank Transfer,Mall,Amazon,Weekly groceries,Fixed,Thursday
+795,2024-03-08,10.53,Entertainment,Debit Card,Fuel Station,CVS,Dinner with friends,Variable,Friday
+796,2023-04-01,114.05,Bills,Debit Card,Online,Walmart,Gift shopping,Fixed,Saturday
+797,2023-04-10,175.49,Groceries,Bank Transfer,Restaurant,Starbucks,Gas refill,Variable,Monday
+798,2022-08-15,142.42,Eating Out,Cash,Mall,Netflix,Bus fare,Variable,Monday
+799,2023-03-22,126.48,Eating Out,Cash,Mall,Starbucks,Gas refill,Variable,Wednesday
+800,2022-05-15,191.41,Bills,Credit Card,Restaurant,Amazon,Bus fare,Fixed,Sunday
+801,2022-02-02,191.86,Entertainment,Debit Card,Fuel Station,Shell,Monthly subscription,Variable,Wednesday
+802,2023-01-10,165.73,Groceries,Bank Transfer,Supermarket,Starbucks,Doctor's visit,Variable,Tuesday
+803,2022-10-21,123.51,Groceries,Bank Transfer,Fuel Station,Amazon,Dinner with friends,Variable,Friday
+804,2023-09-24,100.11,Transport,Debit Card,Fuel Station,Amazon,Dinner with friends,Variable,Sunday
+805,2022-01-09,7.6,Bills,Debit Card,Restaurant,Starbucks,Weekly groceries,Fixed,Sunday
+806,2024-03-08,123.22,Transport,Bank Transfer,Mall,Walmart,Bus fare,Variable,Friday
+807,2023-10-31,197.87,Bills,Bank Transfer,Mall,Netflix,Gas refill,Fixed,Tuesday
+808,2022-07-06,164.53,Transport,Debit Card,Supermarket,Netflix,Gas refill,Variable,Wednesday
+809,2022-04-22,71.42,Healthcare,Cash,Supermarket,Amazon,Dinner with friends,Fixed,Friday
+810,2022-09-05,34.65,Entertainment,Cash,Online,Netflix,Bus fare,Variable,Monday
+811,2024-10-01,157.89,Bills,Credit Card,Online,Amazon,Gas refill,Fixed,Tuesday
+812,2024-10-28,150.07,Eating Out,Credit Card,Mall,Walmart,Monthly subscription,Variable,Monday
+813,2024-06-27,193.57,Bills,Bank Transfer,Online,Shell,Gas refill,Fixed,Thursday
+814,2024-01-18,175.59,Eating Out,Debit Card,Supermarket,Shell,Dinner with friends,Variable,Thursday
+815,2022-03-17,113.35,Transport,Credit Card,Fuel Station,Shell,Weekly groceries,Variable,Thursday
+816,2024-10-21,24.75,Transport,Debit Card,Online,CVS,Bus fare,Variable,Monday
+817,2022-08-01,99.28,Entertainment,Cash,Online,Walmart,Movie night,Variable,Monday
+818,2023-08-28,66.17,Eating Out,Cash,Mall,Shell,Doctor's visit,Variable,Monday
+819,2023-03-08,104.92,Entertainment,Cash,Restaurant,Shell,Bus fare,Variable,Wednesday
+820,2023-07-28,63.83,Groceries,Credit Card,Restaurant,Starbucks,Bus fare,Variable,Friday
+821,2022-04-14,173.06,Eating Out,Debit Card,Pharmacy,Walmart,Gas refill,Variable,Thursday
+822,2023-08-04,169.64,Bills,Credit Card,Pharmacy,Shell,Doctor's visit,Fixed,Friday
+823,2023-05-10,66.52,Eating Out,Bank Transfer,Fuel Station,Starbucks,Bus fare,Variable,Wednesday
+824,2024-08-30,121.92,Transport,Debit Card,Mall,Shell,Monthly subscription,Variable,Friday
+825,2024-06-06,88.89,Healthcare,Bank Transfer,Mall,Amazon,Gas refill,Fixed,Thursday
+826,2023-09-10,182.27,Healthcare,Credit Card,Fuel Station,CVS,Dinner with friends,Fixed,Sunday
+827,2023-07-03,41.54,Entertainment,Cash,Restaurant,Shell,Dinner with friends,Variable,Monday
+828,2022-12-03,141.06,Groceries,Credit Card,Mall,CVS,Dinner with friends,Variable,Saturday
+829,2023-04-12,194.22,Entertainment,Cash,Supermarket,Starbucks,Movie night,Variable,Wednesday
+830,2022-06-15,39.18,Groceries,Debit Card,Mall,Amazon,Gas refill,Variable,Wednesday
+831,2024-01-05,44.38,Healthcare,Cash,Online,Walmart,Bus fare,Fixed,Friday
+832,2023-01-09,140.28,Transport,Credit Card,Mall,Walmart,Doctor's visit,Variable,Monday
+833,2022-09-23,156.94,Healthcare,Debit Card,Restaurant,Walmart,Bus fare,Fixed,Friday
+834,2022-02-20,100.66,Healthcare,Credit Card,Supermarket,Shell,Dinner with friends,Fixed,Sunday
+835,2024-01-08,123.89,Entertainment,Bank Transfer,Pharmacy,Starbucks,Doctor's visit,Variable,Monday
+836,2023-06-09,46.47,Bills,Credit Card,Supermarket,Walmart,Dinner with friends,Fixed,Friday
+837,2023-05-15,97.94,Bills,Credit Card,Supermarket,Starbucks,Dinner with friends,Fixed,Monday
+838,2022-12-25,26.85,Entertainment,Cash,Online,Walmart,Monthly subscription,Variable,Sunday
+839,2023-03-05,67.68,Healthcare,Debit Card,Supermarket,CVS,Monthly subscription,Fixed,Sunday
+840,2022-02-05,60.53,Healthcare,Credit Card,Mall,Netflix,Bus fare,Fixed,Saturday
+841,2024-02-22,91.7,Entertainment,Bank Transfer,Restaurant,Amazon,Monthly subscription,Variable,Thursday
+842,2022-01-30,186.37,Groceries,Cash,Supermarket,CVS,Doctor's visit,Variable,Sunday
+843,2022-03-02,40.35,Entertainment,Credit Card,Supermarket,Shell,Weekly groceries,Variable,Wednesday
+844,2024-10-13,83.27,Healthcare,Debit Card,Mall,Amazon,Doctor's visit,Fixed,Sunday
+845,2024-04-15,125.04,Healthcare,Cash,Fuel Station,Amazon,Dinner with friends,Fixed,Monday
+846,2022-06-05,189.58,Groceries,Credit Card,Supermarket,Netflix,Gas refill,Variable,Sunday
+847,2023-03-12,30.96,Entertainment,Credit Card,Pharmacy,Starbucks,Dinner with friends,Variable,Sunday
+848,2022-02-26,183.99,Healthcare,Cash,Supermarket,Amazon,Gas refill,Fixed,Saturday
+849,2022-10-05,20.81,Entertainment,Debit Card,Supermarket,Netflix,Monthly subscription,Variable,Wednesday
+850,2023-11-11,98.74,Eating Out,Bank Transfer,Supermarket,Starbucks,Dinner with friends,Variable,Saturday
+851,2023-06-26,93.65,Groceries,Debit Card,Pharmacy,CVS,Weekly groceries,Variable,Monday
+852,2022-08-30,45.87,Transport,Bank Transfer,Pharmacy,CVS,Bus fare,Variable,Tuesday
+853,2024-07-14,72.75,Bills,Debit Card,Pharmacy,Netflix,Bus fare,Fixed,Sunday
+854,2024-08-15,93.56,Groceries,Cash,Pharmacy,Starbucks,Gift shopping,Variable,Thursday
+855,2022-04-25,173.72,Entertainment,Bank Transfer,Supermarket,Netflix,Doctor's visit,Variable,Monday
+856,2023-03-25,191.24,Healthcare,Cash,Mall,Amazon,Gift shopping,Fixed,Saturday
+857,2023-09-28,106.19,Bills,Credit Card,Restaurant,Amazon,Gas refill,Fixed,Thursday
+858,2022-01-14,174.67,Entertainment,Cash,Restaurant,Netflix,Movie night,Variable,Friday
+859,2024-02-09,123.59,Transport,Bank Transfer,Supermarket,Amazon,Bus fare,Variable,Friday
+860,2022-09-16,73.07,Groceries,Credit Card,Online,Netflix,Monthly subscription,Variable,Friday
+861,2022-05-28,42.87,Healthcare,Bank Transfer,Restaurant,Netflix,Gift shopping,Fixed,Saturday
+862,2023-05-16,85.56,Healthcare,Bank Transfer,Pharmacy,Shell,Monthly subscription,Fixed,Tuesday
+863,2024-08-03,106.95,Groceries,Cash,Online,Walmart,Movie night,Variable,Saturday
+864,2023-01-07,13.67,Entertainment,Debit Card,Mall,Amazon,Dinner with friends,Variable,Saturday
+865,2024-08-18,33.44,Entertainment,Debit Card,Fuel Station,Netflix,Monthly subscription,Variable,Sunday
+866,2022-09-15,122.04,Groceries,Cash,Online,CVS,Monthly subscription,Variable,Thursday
+867,2022-10-16,48.88,Entertainment,Cash,Mall,Walmart,Bus fare,Variable,Sunday
+868,2023-11-30,168.28,Groceries,Debit Card,Online,Netflix,Gas refill,Variable,Thursday
+869,2023-12-08,68.75,Eating Out,Debit Card,Restaurant,CVS,Weekly groceries,Variable,Friday
+870,2024-01-03,25.44,Transport,Cash,Pharmacy,Amazon,Dinner with friends,Variable,Wednesday
+871,2022-12-06,21.29,Healthcare,Debit Card,Mall,Netflix,Doctor's visit,Fixed,Tuesday
+872,2023-07-14,187.74,Groceries,Cash,Mall,CVS,Bus fare,Variable,Friday
+873,2023-08-17,28.01,Healthcare,Cash,Online,Starbucks,Gift shopping,Fixed,Thursday
+874,2023-02-25,32.48,Transport,Cash,Pharmacy,Starbucks,Dinner with friends,Variable,Saturday
+875,2023-10-12,173.22,Transport,Cash,Supermarket,Shell,Movie night,Variable,Thursday
+876,2024-02-26,54.59,Eating Out,Cash,Mall,Amazon,Bus fare,Variable,Monday
+877,2023-11-25,134.86,Groceries,Cash,Pharmacy,Amazon,Monthly subscription,Variable,Saturday
+878,2024-08-14,164.26,Entertainment,Credit Card,Supermarket,Walmart,Movie night,Variable,Wednesday
+879,2023-07-09,123.4,Entertainment,Cash,Mall,Netflix,Doctor's visit,Variable,Sunday
+880,2023-04-12,191.71,Groceries,Cash,Pharmacy,Amazon,Doctor's visit,Variable,Wednesday
+881,2023-10-05,143.23,Groceries,Credit Card,Fuel Station,Amazon,Gas refill,Variable,Thursday
+882,2024-03-08,26.99,Transport,Debit Card,Mall,Walmart,Gift shopping,Variable,Friday
+883,2023-02-06,113.89,Transport,Cash,Restaurant,Starbucks,Weekly groceries,Variable,Monday
+884,2022-02-05,145.05,Healthcare,Cash,Pharmacy,Amazon,Dinner with friends,Fixed,Saturday
+885,2024-06-07,161.38,Bills,Credit Card,Online,Walmart,Gas refill,Fixed,Friday
+886,2022-12-22,10.13,Transport,Debit Card,Online,Starbucks,Gift shopping,Variable,Thursday
+887,2024-05-27,145.18,Groceries,Cash,Fuel Station,Amazon,Gift shopping,Variable,Monday
+888,2024-02-28,166.01,Bills,Cash,Supermarket,CVS,Doctor's visit,Fixed,Wednesday
+889,2022-03-23,150.63,Transport,Bank Transfer,Restaurant,Starbucks,Bus fare,Variable,Wednesday
+890,2024-07-29,104.91,Entertainment,Credit Card,Fuel Station,Amazon,Gift shopping,Variable,Monday
+891,2022-02-08,94.31,Transport,Debit Card,Supermarket,CVS,Dinner with friends,Variable,Tuesday
+892,2024-08-28,112.14,Transport,Debit Card,Online,Shell,Monthly subscription,Variable,Wednesday
+893,2023-07-04,142.41,Transport,Debit Card,Pharmacy,Netflix,Weekly groceries,Variable,Tuesday
+894,2022-12-29,184.97,Transport,Bank Transfer,Fuel Station,Walmart,Monthly subscription,Variable,Thursday
+895,2023-07-07,125.32,Eating Out,Debit Card,Restaurant,Amazon,Gas refill,Variable,Friday
+896,2023-02-11,178.13,Groceries,Credit Card,Mall,Netflix,Doctor's visit,Variable,Saturday
+897,2023-11-09,141.75,Bills,Credit Card,Fuel Station,Shell,Monthly subscription,Fixed,Thursday
+898,2024-03-14,18.33,Groceries,Cash,Fuel Station,CVS,Bus fare,Variable,Thursday
+899,2023-06-27,102.66,Transport,Cash,Mall,Starbucks,Bus fare,Variable,Tuesday
+900,2024-09-11,60.86,Entertainment,Credit Card,Pharmacy,Shell,Dinner with friends,Variable,Wednesday
+901,2022-08-28,60.61,Bills,Debit Card,Online,Netflix,Gift shopping,Fixed,Sunday
+902,2023-01-30,74.41,Healthcare,Cash,Fuel Station,Walmart,Weekly groceries,Fixed,Monday
+903,2024-04-25,66.37,Groceries,Cash,Fuel Station,Netflix,Weekly groceries,Variable,Thursday
+904,2022-03-02,117.83,Healthcare,Debit Card,Supermarket,Starbucks,Bus fare,Fixed,Wednesday
+905,2022-01-25,138.3,Entertainment,Cash,Online,Netflix,Monthly subscription,Variable,Tuesday
+906,2022-06-10,57.41,Transport,Credit Card,Pharmacy,Shell,Monthly subscription,Variable,Friday
+907,2024-06-03,30.3,Entertainment,Bank Transfer,Online,Netflix,Gas refill,Variable,Monday
+908,2023-01-03,16.47,Groceries,Bank Transfer,Supermarket,Netflix,Dinner with friends,Variable,Tuesday
+909,2022-04-27,117.27,Bills,Credit Card,Supermarket,Netflix,Doctor's visit,Fixed,Wednesday
+910,2022-01-17,41.3,Groceries,Cash,Restaurant,Netflix,Doctor's visit,Variable,Monday
+911,2024-08-06,6.8,Entertainment,Credit Card,Fuel Station,Starbucks,Gift shopping,Variable,Tuesday
+912,2022-08-07,185.91,Entertainment,Cash,Restaurant,Netflix,Dinner with friends,Variable,Sunday
+913,2022-07-28,109.74,Groceries,Cash,Restaurant,Walmart,Gift shopping,Variable,Thursday
+914,2024-03-25,23.03,Healthcare,Credit Card,Fuel Station,CVS,Movie night,Fixed,Monday
+915,2023-08-30,169.37,Healthcare,Credit Card,Online,Starbucks,Movie night,Fixed,Wednesday
+916,2022-06-22,196.72,Groceries,Credit Card,Fuel Station,Starbucks,Doctor's visit,Variable,Wednesday
+917,2023-08-19,92.48,Groceries,Bank Transfer,Mall,Netflix,Gift shopping,Variable,Saturday
+918,2022-10-29,13.29,Entertainment,Bank Transfer,Online,Shell,Bus fare,Variable,Saturday
+919,2024-09-21,27.92,Eating Out,Cash,Fuel Station,CVS,Weekly groceries,Variable,Saturday
+920,2023-03-09,79.42,Groceries,Credit Card,Supermarket,Netflix,Movie night,Variable,Thursday
+921,2024-05-12,177.68,Transport,Debit Card,Restaurant,CVS,Gas refill,Variable,Sunday
+922,2023-01-13,33.87,Entertainment,Cash,Pharmacy,Starbucks,Weekly groceries,Variable,Friday
+923,2022-08-20,165.68,Eating Out,Cash,Mall,Amazon,Doctor's visit,Variable,Saturday
+924,2024-01-08,7.92,Bills,Bank Transfer,Online,Walmart,Doctor's visit,Fixed,Monday
+925,2024-05-31,94.19,Eating Out,Debit Card,Mall,Shell,Doctor's visit,Variable,Friday
+926,2024-09-21,130.66,Bills,Debit Card,Pharmacy,Shell,Weekly groceries,Fixed,Saturday
+927,2022-03-10,16.77,Eating Out,Bank Transfer,Fuel Station,CVS,Doctor's visit,Variable,Thursday
+928,2023-12-27,124.88,Entertainment,Cash,Restaurant,CVS,Monthly subscription,Variable,Wednesday
+929,2023-04-02,189.16,Transport,Bank Transfer,Restaurant,Shell,Monthly subscription,Variable,Sunday
+930,2023-01-06,36.25,Entertainment,Debit Card,Supermarket,Starbucks,Bus fare,Variable,Friday
+931,2024-07-18,147.27,Eating Out,Bank Transfer,Fuel Station,Shell,Dinner with friends,Variable,Thursday
+932,2022-03-13,123.77,Eating Out,Credit Card,Fuel Station,Shell,Movie night,Variable,Sunday
+933,2023-05-29,41.1,Bills,Credit Card,Online,Amazon,Gift shopping,Fixed,Monday
+934,2022-05-10,6.21,Groceries,Cash,Supermarket,Amazon,Movie night,Variable,Tuesday
+935,2022-07-19,6.81,Entertainment,Cash,Mall,Amazon,Bus fare,Variable,Tuesday
+936,2023-08-13,108.76,Bills,Bank Transfer,Pharmacy,Shell,Gas refill,Fixed,Sunday
+937,2022-04-07,188.84,Eating Out,Credit Card,Fuel Station,Shell,Gift shopping,Variable,Thursday
+938,2022-12-21,130.64,Eating Out,Cash,Pharmacy,Netflix,Weekly groceries,Variable,Wednesday
+939,2022-04-11,144.29,Groceries,Credit Card,Fuel Station,CVS,Movie night,Variable,Monday
+940,2022-12-03,101.3,Entertainment,Bank Transfer,Supermarket,Starbucks,Monthly subscription,Variable,Saturday
+941,2022-04-23,118.47,Eating Out,Debit Card,Supermarket,Netflix,Gift shopping,Variable,Saturday
+942,2024-06-08,29.64,Transport,Debit Card,Mall,Starbucks,Dinner with friends,Variable,Saturday
+943,2024-07-28,175.98,Groceries,Debit Card,Restaurant,Netflix,Gas refill,Variable,Sunday
+944,2023-06-05,153.35,Groceries,Cash,Pharmacy,Amazon,Monthly subscription,Variable,Monday
+945,2022-07-31,199.65,Bills,Debit Card,Fuel Station,Shell,Doctor's visit,Fixed,Sunday
+946,2024-07-31,63.06,Bills,Credit Card,Fuel Station,Amazon,Weekly groceries,Fixed,Wednesday
+947,2023-07-31,49.27,Bills,Bank Transfer,Supermarket,Netflix,Dinner with friends,Fixed,Monday
+948,2023-01-08,29.41,Eating Out,Credit Card,Fuel Station,CVS,Gift shopping,Variable,Sunday
+949,2024-05-25,193.02,Healthcare,Credit Card,Pharmacy,CVS,Bus fare,Fixed,Saturday
+950,2023-01-25,157.27,Groceries,Bank Transfer,Restaurant,Starbucks,Gas refill,Variable,Wednesday
+951,2022-12-08,37.43,Entertainment,Bank Transfer,Pharmacy,Walmart,Weekly groceries,Variable,Thursday
+952,2022-10-08,112.77,Transport,Credit Card,Restaurant,Walmart,Gift shopping,Variable,Saturday
+953,2024-10-23,85.68,Eating Out,Credit Card,Restaurant,Shell,Bus fare,Variable,Wednesday
+954,2023-05-25,34.54,Eating Out,Bank Transfer,Online,Shell,Movie night,Variable,Thursday
+955,2024-10-18,36.6,Entertainment,Debit Card,Mall,CVS,Movie night,Variable,Friday
+956,2022-07-23,192.88,Eating Out,Credit Card,Pharmacy,Netflix,Gas refill,Variable,Saturday
+957,2022-09-01,64.47,Entertainment,Bank Transfer,Restaurant,Starbucks,Bus fare,Variable,Thursday
+958,2023-01-10,188.58,Healthcare,Debit Card,Pharmacy,Starbucks,Bus fare,Fixed,Tuesday
+959,2024-05-13,19.74,Entertainment,Bank Transfer,Supermarket,Amazon,Movie night,Variable,Monday
+960,2022-03-07,94.86,Groceries,Credit Card,Mall,Netflix,Doctor's visit,Variable,Monday
+961,2023-04-10,30.28,Eating Out,Cash,Mall,Amazon,Bus fare,Variable,Monday
+962,2023-01-06,5.93,Eating Out,Debit Card,Supermarket,Netflix,Monthly subscription,Variable,Friday
+963,2022-07-30,112.98,Transport,Cash,Supermarket,Netflix,Gift shopping,Variable,Saturday
+964,2022-07-17,27.21,Entertainment,Debit Card,Pharmacy,Shell,Gas refill,Variable,Sunday
+965,2024-03-12,145.79,Transport,Debit Card,Online,Shell,Dinner with friends,Variable,Tuesday
+966,2023-06-24,141.13,Healthcare,Cash,Pharmacy,CVS,Dinner with friends,Fixed,Saturday
+967,2024-01-15,39.38,Transport,Credit Card,Pharmacy,Starbucks,Movie night,Variable,Monday
+968,2023-01-11,188.64,Healthcare,Credit Card,Restaurant,Starbucks,Weekly groceries,Fixed,Wednesday
+969,2024-04-19,145.6,Transport,Credit Card,Pharmacy,Shell,Monthly subscription,Variable,Friday
+970,2024-03-08,63.1,Bills,Bank Transfer,Mall,Walmart,Bus fare,Fixed,Friday
+971,2024-01-08,143.3,Groceries,Credit Card,Fuel Station,Starbucks,Movie night,Variable,Monday
+972,2022-11-01,147.73,Entertainment,Bank Transfer,Online,Amazon,Gas refill,Variable,Tuesday
+973,2024-08-03,71.73,Eating Out,Debit Card,Supermarket,Walmart,Gift shopping,Variable,Saturday
+974,2024-04-28,78.24,Bills,Credit Card,Mall,Amazon,Gift shopping,Fixed,Sunday
+975,2022-07-04,75.03,Bills,Debit Card,Supermarket,Netflix,Monthly subscription,Fixed,Monday
+976,2022-11-16,125.24,Bills,Debit Card,Restaurant,Netflix,Movie night,Fixed,Wednesday
+977,2024-06-20,180.58,Eating Out,Bank Transfer,Pharmacy,CVS,Gift shopping,Variable,Thursday
+978,2023-07-28,38.77,Bills,Debit Card,Restaurant,CVS,Bus fare,Fixed,Friday
+979,2023-04-13,175.66,Bills,Cash,Supermarket,Netflix,Bus fare,Fixed,Thursday
+980,2022-02-15,10.39,Eating Out,Cash,Pharmacy,Starbucks,Dinner with friends,Variable,Tuesday
+981,2024-09-19,133.77,Groceries,Credit Card,Fuel Station,Starbucks,Gas refill,Variable,Thursday
+982,2024-02-13,85.82,Healthcare,Bank Transfer,Fuel Station,CVS,Gift shopping,Fixed,Tuesday
+983,2022-06-20,159.3,Bills,Debit Card,Pharmacy,Netflix,Doctor's visit,Fixed,Monday
+984,2024-01-30,145.63,Entertainment,Credit Card,Restaurant,Starbucks,Movie night,Variable,Tuesday
+985,2023-02-05,98.62,Groceries,Bank Transfer,Supermarket,Starbucks,Weekly groceries,Variable,Sunday
+986,2022-10-01,130.55,Eating Out,Cash,Online,Amazon,Dinner with friends,Variable,Saturday
+987,2024-05-27,102.85,Groceries,Bank Transfer,Restaurant,Shell,Gift shopping,Variable,Monday
+988,2022-07-01,163.25,Groceries,Cash,Mall,Netflix,Movie night,Variable,Friday
+989,2022-03-23,97.84,Transport,Bank Transfer,Mall,CVS,Bus fare,Variable,Wednesday
+990,2022-07-18,107.02,Eating Out,Bank Transfer,Mall,Walmart,Weekly groceries,Variable,Monday
+991,2022-01-29,53.85,Groceries,Cash,Supermarket,Shell,Movie night,Variable,Saturday
+992,2023-04-30,122.98,Eating Out,Debit Card,Mall,CVS,Bus fare,Variable,Sunday
+993,2023-04-30,64.07,Healthcare,Cash,Mall,Shell,Movie night,Fixed,Sunday
+994,2022-12-07,117.57,Bills,Bank Transfer,Pharmacy,Amazon,Dinner with friends,Fixed,Wednesday
+995,2023-05-14,38.09,Eating Out,Cash,Pharmacy,Netflix,Movie night,Variable,Sunday
+996,2022-06-28,36.1,Groceries,Credit Card,Pharmacy,Walmart,Bus fare,Variable,Tuesday
+997,2022-07-01,86.32,Eating Out,Credit Card,Supermarket,Walmart,Weekly groceries,Variable,Friday
+998,2024-08-13,88.23,Transport,Credit Card,Mall,CVS,Bus fare,Variable,Tuesday
+999,2023-09-25,57.28,Healthcare,Credit Card,Restaurant,Amazon,Dinner with friends,Fixed,Monday
+1000,2023-03-26,30.66,Transport,Cash,Mall,Shell,Bus fare,Variable,Sunday
